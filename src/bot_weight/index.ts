@@ -76,7 +76,8 @@ function handleReport(chatId: number) {
         const endDay = (i + 1) * 7;
 
         if (current.entries > 0) {
-            reportMsg += `📅 *Week ${i + 1} (-${startDay} to -${endDay}d):* ${current.avg.toFixed(2)} kg (${current.entries} logs)\n`;
+            reportMsg += `📅 Week ${i + 1} (-${startDay} to -${endDay}d)\n`;
+            reportMsg += `   ↳ Average (${current.entries} entries): *${current.avg.toFixed(2)} kg* \n`;
         } else {
             reportMsg += `📅 *Week ${i + 1} (-${startDay} to -${endDay}d):* N/A\n`;
         }
@@ -88,14 +89,14 @@ function handleReport(chatId: number) {
             const diffPct = (diffKg / older.avg) * 100;
             const sign = diffKg > 0 ? '+' : '';
 
-            reportMsg += `   ↳ Change from Week ${i + 2}:* ${sign}${diffPct.toFixed(2)}%*\n\n`;
+            reportMsg += `   ↳ Change from previous week:* ${sign}${diffPct.toFixed(2)}%*\n\n`;
             // reportMsg += `   ↳ 📈 *Diff vs W${i + 2}:* ${sign}${diffKg.toFixed(2)} kg (${sign}${diffPct.toFixed(2)}%)\n\n`;
         }
     }
 
     // Attach the most recent logged weight at the bottom for reference
-    const latestWeight = data[data.length - 1];
-    reportMsg += `\n⚖️ *Latest Entry:* ${latestWeight.bodyweight} kg (${latestWeight.datetime.toISOString().split('T')[0]})`;
+    // const latestWeight = data[data.length - 1];
+    // reportMsg += `\n⚖️ *Latest Entry:* ${latestWeight.bodyweight} kg (${latestWeight.datetime.toISOString().split('T')[0]})`;
 
     reply(chatId, reportMsg);
 }

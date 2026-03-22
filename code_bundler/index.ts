@@ -17,7 +17,6 @@ const config: Config = {
     codeBundle_1: {
         files: [
             'src/bot_weight/config.ts',
-            'src/bot_weight/data.csv',
             'src/bot_weight/index.ts',
             'src/bot_weight/storage.ts'
         ],

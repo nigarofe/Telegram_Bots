@@ -2,7 +2,7 @@ import * as path from 'path';
 import * as fs from 'fs';
 import { DatabaseData, WorkoutStats } from './types';
 
-const dataPath = path.join(process.cwd(), 'src', 'data.json');
+const dataPath = path.join(process.cwd(), 'src', 'bot_jacked', 'data.json');
 
 export function getParsedData(): DatabaseData {
     if (!fs.existsSync(dataPath)) return { workouts: [] };

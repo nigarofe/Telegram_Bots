@@ -20,15 +20,18 @@
 
 
 # screen
-**Create a new screen session without attaching:**
+**Create a new screen session without attaching**
 1. cd Telegram_Bots
 2. screen -S bot_jacked -d -m npm run bot_jacked
 3. screen -S bot_weight -d -m npm run bot_weight
 
-**Kill all screen sessions:**
+**List all screen sessions**
+screen -ls
+
+**Kill all screen sessions**
 killall screen
 
-**Reattach to the screen session:**
+**Reattach to the screen session**
 screen -d -r bot_jacked
 screen -d -r bot_weight
 

@@ -2,9 +2,9 @@ import * as dotenv from 'dotenv';
 
 dotenv.config();
 
-export const TOKEN = process.env.TELEGRAM_TOKEN || '';
+export const TOKEN = process.env.BOT_JACKED_TOKEN || '';
 if (!TOKEN) {
-    console.error('Missing TELEGRAM_TOKEN in environment variables.');
+    console.error('Missing BOT_JACKED_TOKEN in environment variables.');
     process.exit(1);
 }
 

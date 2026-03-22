@@ -8,8 +8,12 @@
 7. echo "TELEGRAM_TOKEN=value" > .env
 8. npm install
 
+
+
 # Run the bot
 npm run dev
+
+
 
 # Update data and push to GitHub
 npm run push

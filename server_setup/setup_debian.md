@@ -14,13 +14,19 @@
 **gh:** https://github.com/cli/cli/blob/trunk/docs/install_linux.md#debian
 **nvm:** https://github.com/nvm-sh/nvm
 
+
+
 # Run the bot
 npm run dev
 cd Telegram_Bot && screen -S telegram_bot -d -m npm run dev
 
+
+
 # Update data and push to GitHub
 npm run push
 **Observation: there's already an automated backup process**
+
+
 
 # screen
 **Kill all screen sessions:**

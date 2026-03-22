@@ -1,14 +1,11 @@
 {
-  "name": "jacked-telegram-bot",
-  "private": true,
+  "name": "telegram-bots",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/main.ts",
-    "build": "tsc",
-    "start": "node dist/main.js",
     "push": "git add . && git commit -m \"npm run push\" && git push",
-    "code-bundler": "npx tsx --watch code_bundler/index.ts"
+    "code_bundler": "npx tsx --watch code_bundler/index.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",

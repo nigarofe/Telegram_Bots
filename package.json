@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/main.ts",
+    "bot_jacked": "npx tsx --watch src/bot_jacked/index.ts",
+    "bot_weight": "npx tsx --watch src/bot_weight/index.ts",
     "push": "git add . && git commit -m \"npm run push\" && git push",
     "code_bundler": "npx tsx --watch code_bundler/index.ts"
   },

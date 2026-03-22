@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-const CSV_PATH = path.join(__dirname, 'data.csv');
+const CSV_PATH = path.join(process.cwd(), 'src', 'bot_weight', 'data.csv');
 
 export interface WeightEntry {
     datetime: Date;

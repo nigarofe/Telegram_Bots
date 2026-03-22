@@ -7,3 +7,19 @@ if (!TOKEN) {
     console.error('Missing BOT_WEIGHT_TOKEN in environment variables.');
     process.exit(1);
 }
+
+export const HELP_MESSAGE = `
+⚖️ *Weight Tracker*
+
+Track your weight using simple shorthand commands!
+
+*How to log weight:*
+Send a message like: \`76.5\`
+This logs your weight as 76.5 kg.
+
+*How to view stats:*
+\`.report\` - Shows a report of your weight changes over time.
+
+*Commands:*
+/help - Show this message 
+`.trim();

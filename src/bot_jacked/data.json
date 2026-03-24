@@ -2,6 +2,24 @@
     "workouts": [
         {
             "muscle_group": "triceps",
+            "datetime": "2026-03-24T11:02:25.899Z",
+            "sets": 3,
+            "notes": "Tempo 4020\n13rep 15\nChanged to straight bar, feels much better on the elbow\n12rep 15\n12rep 15"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-03-24T10:37:14.789Z",
+            "sets": 3,
+            "notes": "Tempo 4020\n12rep 12\n11rep 12\n11rep 12"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-03-24T10:19:19.954Z",
+            "sets": 2,
+            "notes": "Tempo4020\n14rep 7\n14rep 7"
+        },
+        {
+            "muscle_group": "triceps",
             "datetime": "2026-03-20T10:46:34.177Z",
             "sets": 1,
             "notes": "13rep 15\nSignificant elbow pain"

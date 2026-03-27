@@ -1,6 +1,36 @@
 {
     "workouts": [
         {
+            "muscle_group": "back",
+            "datetime": "2026-03-27T11:08:06.896Z",
+            "sets": 1,
+            "notes": "Pull up\n6rep 0"
+        },
+        {
+            "muscle_group": "abs",
+            "datetime": "2026-03-27T11:07:09.233Z",
+            "sets": 3,
+            "notes": "Tempo 4020\n16rep 22\n12rep 27\n12rep 27"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-03-27T10:34:03.655Z",
+            "sets": 3,
+            "notes": "Tempo 4020\n12rep 17\nChanged to ropes (feels better on the elbow. For now, I think this is the only triceps exercise sustainable for long term for me)\n6rep 17\n4rep 17"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-03-27T10:19:41.111Z",
+            "sets": 3,
+            "notes": "Tempo 4020\nNeutral to supinated\n12rep 12\n11rep 11\n11rep 11"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-03-27T10:01:32.847Z",
+            "sets": 2,
+            "notes": "Tempo 4020\n14rep 7.5\n14rep 7.5"
+        },
+        {
             "muscle_group": "triceps",
             "datetime": "2026-03-24T11:02:25.899Z",
             "sets": 3,

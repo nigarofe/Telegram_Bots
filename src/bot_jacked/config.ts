@@ -9,8 +9,10 @@ if (!TOKEN) {
 }
 
 export const MUSCLE_GROUPS = [
-    'biceps', 'triceps', 'shoulders', 'chest', 'back', 'abs',
-    'hamstrings', 'quadriceps', 'glutes', 'abductors', 'adductors', 'calves'
+    'neckflexors', 'neckextensors',
+    'biceps', 'triceps', 'shoulders', 'forearmflexors', 'forearmextensors',
+    'chest', 'back', 'abs',
+    'hamstrings', 'quadriceps', 'glutes', 'abductors', 'adductors'
 ];
 
 export const HELP_MESSAGE = `

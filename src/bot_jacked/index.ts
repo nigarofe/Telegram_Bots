@@ -12,7 +12,7 @@ const reply = (chatId: number, text: string) => { bot.sendMessage(chatId, text, 
 
 bot.on('message', (msg) => {
   const chatId = msg.chat.id;
-  console.log(chatId)
+  if (chatId !== 8191447266) { return reply(chatId, `❌ You are not authorized to use this bot.`); }
   const text = msg.text;
 
   if (text) { console.log(`Received message from ${msg.from?.first_name}: "${text}"`); }

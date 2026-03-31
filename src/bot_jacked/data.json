@@ -1,6 +1,42 @@
 {
     "workouts": [
         {
+            "muscle_group": "forearmextensors",
+            "datetime": "2026-03-30T10:12:01.275Z",
+            "sets": 2,
+            "notes": "7rep 5\n7rep 5"
+        },
+        {
+            "muscle_group": "forearmflexors",
+            "datetime": "2026-03-30T10:10:23.950Z",
+            "sets": 2,
+            "notes": "12rep 5\n12rep 5"
+        },
+        {
+            "muscle_group": "back",
+            "datetime": "2026-03-30T09:57:40.186Z",
+            "sets": 2,
+            "notes": "Tempo 4020\nPull up\n6rep 5\n6rep 5"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-03-30T09:47:47.089Z",
+            "sets": 3,
+            "notes": "Tempo 4020\nRopes\n8rep 15\n8rep 15\n8rep 15"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-03-30T09:12:36.132Z",
+            "sets": 3,
+            "notes": "Tempo 4020\nNeutral to supinated\n12rep 12\n12rep 12\n12rep 12"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-03-30T08:55:30.211Z",
+            "sets": 2,
+            "notes": "Tempo 4020\n14rep 8\n14rep 8"
+        },
+        {
             "muscle_group": "back",
             "datetime": "2026-03-27T11:08:06.896Z",
             "sets": 1,

@@ -1,6 +1,18 @@
 {
     "workouts": [
         {
+            "muscle_group": "neckextensors",
+            "datetime": "2026-03-31T11:19:40.543Z",
+            "sets": 1,
+            "notes": "17rep helmet"
+        },
+        {
+            "muscle_group": "neckflexors",
+            "datetime": "2026-03-31T11:17:26.731Z",
+            "sets": 1,
+            "notes": "18rep 0"
+        },
+        {
             "muscle_group": "forearmextensors",
             "datetime": "2026-03-30T10:12:01.275Z",
             "sets": 2,

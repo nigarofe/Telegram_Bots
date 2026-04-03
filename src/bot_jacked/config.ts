@@ -1,17 +1,14 @@
 import * as dotenv from 'dotenv';
 
 dotenv.config();
-
 export const TOKEN = process.env.BOT_JACKED_TOKEN || '';
-if (!TOKEN) {
-    console.error('Missing BOT_JACKED_TOKEN in environment variables.');
-    process.exit(1);
-}
+if (!TOKEN) {throw new Error('Missing BOT_JACKED_TOKEN in environment variables.');}
 
 export const MUSCLE_GROUPS = [
-    'neckflexors', 'neckextensors',
-    'biceps', 'triceps', 'shoulders', 'forearmflexors', 'forearmextensors',
+    'nf', 'ne', // neck flexors, neck extensors
+    'ff', 'fe', // forearm flexors, forearm extensors
     'chest', 'back', 'abs',
+    'biceps', 'triceps', 'shoulders',
     'hamstrings', 'quadriceps', 'glutes', 'abductors', 'adductors'
 ];
 

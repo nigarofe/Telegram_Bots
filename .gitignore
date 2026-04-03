@@ -1,4 +1,4 @@
 /node_modules
 /dist
+/bundled_code
 .env
-code_bundler/*.txt

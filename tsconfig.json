@@ -14,7 +14,7 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": ".",
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
@@ -22,8 +22,9 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": [
-    "src"
-  ],
+    "src",
+    "code_bundler"
+, "utils/code_bundler.ts"  ],
   "exclude": [
     "node_modules",
     "dist"

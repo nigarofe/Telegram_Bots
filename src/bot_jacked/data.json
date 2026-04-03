@@ -1,6 +1,30 @@
 {
     "workouts": [
         {
+            "muscle_group": "back",
+            "datetime": "2026-04-02T12:33:26.919Z",
+            "sets": 2,
+            "notes": "Tempo 4020\n6rep 10\n5rep 10"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-04-02T12:27:09.401Z",
+            "sets": 3,
+            "notes": "Tempo 4020\n10rep 15\n8rep 15\n8rep 15"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-04-02T11:49:44.741Z",
+            "sets": 3,
+            "notes": "Tempo 4020\nNeutral to supinated \n10rep 13\n9rep 13\n9rep 13"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-04-02T11:18:29.099Z",
+            "sets": 2,
+            "notes": "Tempo 4020\n11rep 8.5\n11rep 8.5"
+        },
+        {
             "muscle_group": "adductors",
             "datetime": "2026-04-01T11:47:30.078Z",
             "sets": 2,

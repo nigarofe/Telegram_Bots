@@ -17,8 +17,13 @@ interface Config {
 const CONFIG: Config = {
     bundled_code_1: {
         files: [
+            'README.md',
+            'src/bot_jacked/config.ts',
             'src/bot_jacked/index.ts',
+            'src/bot_weight/storage.ts',
+            'src/bot_weight/config.ts',
             'src/bot_weight/index.ts',
+            'src/bot_weight/storage.ts',
         ],
     },
     bundled_code_2: {

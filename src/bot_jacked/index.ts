@@ -82,26 +82,19 @@ function handleWorkoutCommand(chatId: number, text: string) {
 
 
 
-
-// Define 24 hours in milliseconds
 const BACKUP_INTERVAL = 24 * 60 * 60 * 1000;
-// const BACKUP_INTERVAL = 30 * 1000; // For testing purposes, set to 30 second. Change back to 24 hours for production.
+// const BACKUP_INTERVAL = 30 * 1000; // For testing purposes
 
-// Set up the recurring backup task
 setInterval(async () => {
   const now = new Date().toISOString();
   console.log(`⏳ [${now}] Initiating automated repo backup...`);
 
   try {
-    await git.add('.')
-      .commit(`Automated repo backup: ${now}`)
-      .push();
-    console.log(`✅ [${now}] Repo backup completed successfully.`);
-    // Notify the admin about the backup status
+    await git.add('.').commit(`Automated repo backup: ${now}`).push();
     reply(8191447266, `✅ [${now}] Repo backup completed successfully.`);
+    console.log(`✅ [${now}] Repo backup completed successfully.`);
   } catch (error) {
-    console.error(`❌ [${now}] Repo backup failed:`, error);
-    // Notify the admin about the backup failure
     reply(8191447266, `❌ [${now}] Repo backup failed. Error: ${error instanceof Error ? error.message : String(error)}`);
+    console.error(`❌ [${now}] Repo backup failed:`, error);
   }
 }, BACKUP_INTERVAL);

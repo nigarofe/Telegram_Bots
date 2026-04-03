@@ -1,4 +1,3 @@
-// --- START OF FILE: src/bot_weight/index.ts ---
 import TelegramBot from 'node-telegram-bot-api';
 import { TOKEN, HELP_MESSAGE } from './config';
 import { saveWeight, getWeightData } from './storage';
@@ -91,13 +90,15 @@ function handleReport(chatId: number) {
             const sign = diffKg > 0 ? '+' : '';
 
             reportMsg += `   ↳ Change from previous week:* ${sign}${diffPct.toFixed(2)}%*\n\n`;
-            // reportMsg += `   ↳ 📈 *Diff vs W${i + 2}:* ${sign}${diffKg.toFixed(2)} kg (${sign}${diffPct.toFixed(2)}%)\n\n`;
         }
     }
 
-    // Attach the most recent logged weight at the bottom for reference
-    // const latestWeight = data[data.length - 1];
-    // reportMsg += `\n⚖️ *Latest Entry:* ${latestWeight.bodyweight} kg (${latestWeight.datetime.toISOString().split('T')[0]})`;
+    // Attach the 7 most recent logged weight at the bottom for reference
+    reportMsg += `\n*Last weights* (oldest to most recent)\n`;
+    for(let i = data.length - 7; i < data.length; i++) {
+        const entry = data[i];
+        reportMsg += `${entry.bodyweight} kg \n`;
+    }
 
     reply(chatId, reportMsg);
 }

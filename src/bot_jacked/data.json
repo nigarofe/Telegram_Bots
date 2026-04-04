@@ -1,6 +1,36 @@
 {
     "workouts": [
         {
+            "muscle_group": "abs",
+            "datetime": "2026-04-04T12:47:22.563Z",
+            "sets": 1,
+            "notes": "Plank\n60s"
+        },
+        {
+            "muscle_group": "hamstrings",
+            "datetime": "2026-04-04T12:37:31.977Z",
+            "sets": 1,
+            "notes": "Tempo 4020\n12rep 25"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-04-04T11:33:02.873Z",
+            "sets": 1,
+            "notes": "Smith 34\n10rep 10"
+        },
+        {
+            "muscle_group": "adductors",
+            "datetime": "2026-04-04T11:30:03.006Z",
+            "sets": 2,
+            "notes": "Right machine 3\n13rep 100\n13rep 100"
+        },
+        {
+            "muscle_group": "abductors",
+            "datetime": "2026-04-04T11:25:34.531Z",
+            "sets": 2,
+            "notes": "13rep 100\n14rep 100"
+        },
+        {
             "muscle_group": "nf",
             "datetime": "2026-04-03T12:32:23.436Z",
             "sets": 1,

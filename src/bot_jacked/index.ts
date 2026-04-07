@@ -82,7 +82,7 @@ function handleWorkoutCommand(chatId: number, text: string) {
 
 
 
-const BACKUP_INTERVAL = 24 * 60 * 60 * 1000;
+const BACKUP_INTERVAL = 7 * 24 * 60 * 60 * 1000;
 // const BACKUP_INTERVAL = 30 * 1000; // For testing purposes
 
 setInterval(async () => {

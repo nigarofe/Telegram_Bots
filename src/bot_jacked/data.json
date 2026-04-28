@@ -1,6 +1,150 @@
 {
     "workouts": [
         {
+            "muscle_group": "triceps",
+            "datetime": "2026-04-28T13:07:05.078Z",
+            "sets": 3,
+            "notes": "One arm rope\nTempo 4020\n13rep 6.5\n13rep 6.5\n13rep\nI'm probably stuck with this rep/weight"
+        },
+        {
+            "muscle_group": "chest",
+            "datetime": "2026-04-28T12:48:27.596Z",
+            "sets": 3,
+            "notes": "Tempo 4020\nPushup 5x8\n9rep 0\n9rep 0\n9rep 0"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-04-28T12:32:51.189Z",
+            "sets": 3,
+            "notes": "Tempo 4020\nNeutral to supinated\n10rep 15\n9rep 15\n9rep 15\nIncrease weight next time"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-04-28T11:29:36.524Z",
+            "sets": 2,
+            "notes": "Tempo 4020\n10rep 11.0\n11rep 11.0\nNext time with same weight"
+        },
+        {
+            "muscle_group": "hamstrings",
+            "datetime": "2026-04-27T10:58:24.141Z",
+            "sets": 2,
+            "notes": "Tempo 5020\n6rep 40\n4rep 35"
+        },
+        {
+            "muscle_group": "ff",
+            "datetime": "2026-04-25T13:22:57.460Z",
+            "sets": 2,
+            "notes": "15rep 7.5\n13rep 7.5"
+        },
+        {
+            "muscle_group": "fe",
+            "datetime": "2026-04-25T13:11:47.028Z",
+            "sets": 2,
+            "notes": "19rep 5\n19rep 5"
+        },
+        {
+            "muscle_group": "back",
+            "datetime": "2026-04-25T12:53:44.067Z",
+            "sets": 3,
+            "notes": "Tempo 5020\n6rep 14\n5rep 14\n5rep 14"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-04-25T12:35:32.958Z",
+            "sets": 3,
+            "notes": "Tempo 4020\nOne arm rope\n14rep 6.5\n13rep 6.5\n10rep 6.5"
+        },
+        {
+            "muscle_group": "chest",
+            "datetime": "2026-04-25T12:13:16.716Z",
+            "sets": 3,
+            "notes": "Tempo 4020\nPushup 5x8\n8rep 0\n8rep 0 \n8rep 0"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-04-25T11:54:49.951Z",
+            "sets": 3,
+            "notes": "Tempo 4020\nNeutral to supinated\n8rep 15\n8rep 15\n9rep 15"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-04-25T11:35:04.097Z",
+            "sets": 2,
+            "notes": "Tempo 4020\n12rep 10.5\n10rep 10.5"
+        },
+        {
+            "muscle_group": "abs",
+            "datetime": "2026-04-23T15:05:23.641Z",
+            "sets": 1,
+            "notes": "Plank\n2:10"
+        },
+        {
+            "muscle_group": "ff",
+            "datetime": "2026-04-23T15:00:06.501Z",
+            "sets": 2,
+            "notes": "15rep 7\n15rep 7"
+        },
+        {
+            "muscle_group": "fe",
+            "datetime": "2026-04-23T14:49:45.878Z",
+            "sets": 2,
+            "notes": "17rep 5\n17rep 5"
+        },
+        {
+            "muscle_group": "back",
+            "datetime": "2026-04-23T14:40:53.500Z",
+            "sets": 3,
+            "notes": "Tempo 5020\n5rep 14\n5rep 14\n5rep 14"
+        },
+        {
+            "muscle_group": "adductors",
+            "datetime": "2026-04-23T12:01:22.667Z",
+            "sets": 2,
+            "notes": "Right machine 3\n13rep 120\n13rep 120"
+        },
+        {
+            "muscle_group": "abductors",
+            "datetime": "2026-04-23T11:56:39.565Z",
+            "sets": 2,
+            "notes": "Right machine\n14rep 130\n14rep 130"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-04-23T11:32:29.701Z",
+            "sets": 1,
+            "notes": "Front squat\n15rep 12"
+        },
+        {
+            "muscle_group": "hamstrings",
+            "datetime": "2026-04-23T10:57:06.512Z",
+            "sets": 1,
+            "notes": "Tempo 4020\n8rep 40\nUsing back too much"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-04-22T11:10:46.962Z",
+            "sets": 3,
+            "notes": "Tempo 4020\n13rep 6.5\n13rep 6.5\n13rep 6.5"
+        },
+        {
+            "muscle_group": "chest",
+            "datetime": "2026-04-22T10:43:29.970Z",
+            "sets": 3,
+            "notes": "Tempo 4020\n10rep 0\n10rep 0\n6rep 0"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-04-22T10:27:15.876Z",
+            "sets": 3,
+            "notes": "Tempo 4020\nNeutral to supinated \n12rep 14\n11rep 14\n11rep 14\n\nStart with right\nMaybe increase weight? I think I'm not growing with ~11 reps\nMaybe increase number of sets from 3 to 4"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-04-22T10:04:45.791Z",
+            "sets": 2,
+            "notes": "Tempo 4020\n12rep 10\n12rep 10"
+        },
+        {
             "muscle_group": "glutes",
             "datetime": "2026-04-20T11:43:39.317Z",
             "sets": 1,

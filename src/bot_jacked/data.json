@@ -2,6 +2,126 @@
     "workouts": [
         {
             "muscle_group": "triceps",
+            "datetime": "2026-05-05T12:44:54.322Z",
+            "sets": 2,
+            "notes": "Skull crusher\n6kg bar\n8rep 0\n11rep 0"
+        },
+        {
+            "muscle_group": "chest",
+            "datetime": "2026-05-05T12:32:56.045Z",
+            "sets": 3,
+            "notes": "Tempo 4020\nPushup 5x8\n11rep 0\n11rep 0\n11rep 0"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-05-05T12:07:31.042Z",
+            "sets": 3,
+            "notes": "Neutral to supinated \n7rep 16\n7rep 16\n6.5rep 16 4rep 8"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-05-05T11:46:11.722Z",
+            "sets": 2,
+            "notes": "Tempo 4020\n11rep 11.5\n10rep 11.5"
+        },
+        {
+            "muscle_group": "adductors",
+            "datetime": "2026-05-04T13:15:00.968Z",
+            "sets": 2,
+            "notes": "Right machine 3\n15rep 120\n15rep 120"
+        },
+        {
+            "muscle_group": "abductors",
+            "datetime": "2026-05-04T13:09:53.063Z",
+            "sets": 2,
+            "notes": "Right machine\nThey did maintenance on the machine\n6rep 140\n13rep 120"
+        },
+        {
+            "muscle_group": "hamstrings",
+            "datetime": "2026-05-04T11:43:17.552Z",
+            "sets": 2,
+            "notes": "Tempo 5020\n9rep 35\n9rep 35"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-05-04T11:24:22.321Z",
+            "sets": 1,
+            "notes": "Front squat \n15rep 14"
+        },
+        {
+            "muscle_group": "ff",
+            "datetime": "2026-05-01T13:51:16.025Z",
+            "sets": 3,
+            "notes": "15rep 7.5\n12rep 7.5\n7rep 7.0"
+        },
+        {
+            "muscle_group": "fe",
+            "datetime": "2026-05-01T13:40:32.840Z",
+            "sets": 2,
+            "notes": "10rep 5.5\n11rep 5.5"
+        },
+        {
+            "muscle_group": "back",
+            "datetime": "2026-05-01T13:27:39.221Z",
+            "sets": 3,
+            "notes": "Tempo 5020\n6rep 14.5\n5rep 14.5\n5rep 14.5"
+        },
+        {
+            "muscle_group": "abs",
+            "datetime": "2026-05-01T13:04:44.898Z",
+            "sets": 1,
+            "notes": "Plank\n2:10"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-05-01T13:00:12.027Z",
+            "sets": 2,
+            "notes": "Skull crusher \n7rep 8\n10rep 8"
+        },
+        {
+            "muscle_group": "chest",
+            "datetime": "2026-05-01T12:46:13.184Z",
+            "sets": 3,
+            "notes": "Tempo 4020\nPushup 5x8\n10rep 0\n10rep 0\n10rep 0\nWeight next time?"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-05-01T12:26:04.341Z",
+            "sets": 3,
+            "notes": "Tempo 4020\nNeutral to supinated\n7rep 16\n7rep 16\n6.5rep 16"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-05-01T12:04:27.221Z",
+            "sets": 2,
+            "notes": "Tempo 4020\n12rep 11.0\n10rep 11.0"
+        },
+        {
+            "muscle_group": "adductors",
+            "datetime": "2026-04-30T12:03:56.472Z",
+            "sets": 2,
+            "notes": "Right machine 3\n14rep 120\n14rep 120"
+        },
+        {
+            "muscle_group": "abductors",
+            "datetime": "2026-04-30T11:58:54.404Z",
+            "sets": 2,
+            "notes": "Right machine\n14rep 140\n11rep 140"
+        },
+        {
+            "muscle_group": "hamstrings",
+            "datetime": "2026-04-30T11:30:32.988Z",
+            "sets": 2,
+            "notes": "Tempo 5020\n8rep 35\n8rep 35\nMore reps next time"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-04-30T10:51:25.630Z",
+            "sets": 1,
+            "notes": "Front squat\n15rep 13"
+        },
+        {
+            "muscle_group": "triceps",
             "datetime": "2026-04-28T13:07:05.078Z",
             "sets": 3,
             "notes": "One arm rope\nTempo 4020\n13rep 6.5\n13rep 6.5\n13rep\nI'm probably stuck with this rep/weight"

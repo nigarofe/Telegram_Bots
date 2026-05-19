@@ -1,6 +1,108 @@
 {
     "workouts": [
         {
+            "muscle_group": "adductors",
+            "datetime": "2026-05-19T13:22:33.854Z",
+            "sets": 3,
+            "notes": "Left machine 4\nPause at closed\n15rep 120\n15rep 120\n12rep 130\nGood quality"
+        },
+        {
+            "muscle_group": "abductors",
+            "datetime": "2026-05-19T13:15:16.192Z",
+            "sets": 3,
+            "notes": "Right machine\nPause at open\n13rep 120\n13rep 120\n12rep 120"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-05-18T12:45:09.525Z",
+            "sets": 2,
+            "notes": "Skull crusher \n16rep 2\n16rep 2.5"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-05-18T11:58:05.012Z",
+            "sets": 4,
+            "notes": "Tempo 4020\nNeutral to supinated \n10rep 15\n9rep 15\n9rep 15\n10rep 12\nWas I weaker?"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-05-18T11:31:01.173Z",
+            "sets": 3,
+            "notes": "Tempo 4020\n10rep 12\n9rep 12\n8rep 10\nWhy decrease?"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-05-17T15:30:19.438Z",
+            "sets": 1,
+            "notes": "6rep with Victor (35kg)"
+        },
+        {
+            "muscle_group": "back",
+            "datetime": "2026-05-15T18:32:46.047Z",
+            "sets": 3,
+            "notes": "Tempo 5020\n5rep 14.5\n5rep 14.5\n5rep 14.5"
+        },
+        {
+            "muscle_group": "chest",
+            "datetime": "2026-05-15T17:53:32.594Z",
+            "sets": 2,
+            "notes": "Bench press on ground\n8rep 10\n12rep 10"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-05-15T17:43:32.497Z",
+            "sets": 4,
+            "notes": "Neutral to supinated \n10rep 15\n10rep 15\n9rep 15\n8rep 12"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-05-15T17:19:14.895Z",
+            "sets": 2,
+            "notes": "Skull crusher\n16rep 0\n16rep 1"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-05-15T17:10:10.338Z",
+            "sets": 3,
+            "notes": "Tempo 4020\n10rep 12\n10rep 12\n8rep 10\nSame weight next time"
+        },
+        {
+            "muscle_group": "abs",
+            "datetime": "2026-05-14T12:56:06.400Z",
+            "sets": 1,
+            "notes": "Plank (not touching hands, feet no more than 1 boot apart, scapulas retracted, pelvis)\n1:40"
+        },
+        {
+            "muscle_group": "nf",
+            "datetime": "2026-05-14T12:51:04.915Z",
+            "sets": 1,
+            "notes": "Lateral hold 3:00"
+        },
+        {
+            "muscle_group": "abductors",
+            "datetime": "2026-05-14T11:10:57.414Z",
+            "sets": 2,
+            "notes": "Left machine\nPause at open\n13rep 120\n12rep 120\nDon't increase weight\nMaybe increase sets?"
+        },
+        {
+            "muscle_group": "adductors",
+            "datetime": "2026-05-14T11:06:58.889Z",
+            "sets": 2,
+            "notes": "Right machine 3\n15rep 120\n15rep 120\nForm wasn't that good"
+        },
+        {
+            "muscle_group": "hamstrings",
+            "datetime": "2026-05-14T10:38:25.796Z",
+            "sets": 2,
+            "notes": "Tempo 5020\n10rep 27\n10rep 27"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-05-14T10:10:58.178Z",
+            "sets": 1,
+            "notes": "Front squat \n15rep 10\nI got sick, so 1 week without training"
+        },
+        {
             "muscle_group": "biceps",
             "datetime": "2026-05-11T12:00:39.085Z",
             "sets": 3,

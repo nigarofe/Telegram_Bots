@@ -1,6 +1,42 @@
 {
     "workouts": [
         {
+            "muscle_group": "chest",
+            "datetime": "2026-05-21T17:01:38.984Z",
+            "sets": 1,
+            "notes": "30s hold"
+        },
+        {
+            "muscle_group": "back",
+            "datetime": "2026-05-21T16:56:22.721Z",
+            "sets": 3,
+            "notes": "Without tempo\n5rep 14\n5rep 14\n5rep 14\nLittle bit of pain in humerus"
+        },
+        {
+            "muscle_group": "chest",
+            "datetime": "2026-05-21T16:38:10.771Z",
+            "sets": 2,
+            "notes": "Pushup with plate\n6rep\n6rep"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-05-21T16:25:26.868Z",
+            "sets": 2,
+            "notes": "Skull crusher\n10rep 5\n10rep 5"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-05-21T16:16:37.993Z",
+            "sets": 4,
+            "notes": "10rep 15\n10rep 15\n9rep 15\n12rep 15\nStagnation?"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-05-21T15:55:08.181Z",
+            "sets": 3,
+            "notes": "Tempo 4020\n10rep 12\n9rep 12\n8rep 10\nStagnation! Too much stress last two weeks? Increase sets again?"
+        },
+        {
             "muscle_group": "nf",
             "datetime": "2026-05-20T23:35:13.990Z",
             "sets": 1,

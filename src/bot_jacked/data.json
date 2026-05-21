@@ -37,7 +37,7 @@
             "notes": "Tempo 4020\n10rep 12\n9rep 12\n8rep 10\nStagnation! Too much stress last two weeks? Increase sets again?"
         },
         {
-            "muscle_group": "nf",
+            "muscle_group": "neck",
             "datetime": "2026-05-20T23:35:13.990Z",
             "sets": 1,
             "notes": "Lateral hold 4:00"
@@ -115,7 +115,7 @@
             "notes": "Plank (not touching hands, feet no more than 1 boot apart, scapulas retracted, pelvis)\n1:40"
         },
         {
-            "muscle_group": "nf",
+            "muscle_group": "neck",
             "datetime": "2026-05-14T12:51:04.915Z",
             "sets": 1,
             "notes": "Lateral hold 3:00"
@@ -157,7 +157,7 @@
             "notes": "Tempo 4020\n10rep 12\n10rep 12\nSame weight next time"
         },
         {
-            "muscle_group": "nf",
+            "muscle_group": "neck",
             "datetime": "2026-05-09T13:13:48.095Z",
             "sets": 1,
             "notes": "Lateral hold 2:30"
@@ -187,7 +187,7 @@
             "notes": "Front squat\n15rep 15"
         },
         {
-            "muscle_group": "nf",
+            "muscle_group": "neck",
             "datetime": "2026-05-06T19:47:17.134Z",
             "sets": 1,
             "notes": "Lateral hold 2min"
@@ -823,13 +823,13 @@
             "notes": "13rep 100\n14rep 100"
         },
         {
-            "muscle_group": "nf",
+            "muscle_group": "neck",
             "datetime": "2026-04-03T12:32:23.436Z",
             "sets": 1,
             "notes": "21rep 0"
         },
         {
-            "muscle_group": "ne",
+            "muscle_group": "neck",
             "datetime": "2026-04-03T12:32:12.230Z",
             "sets": 2,
             "notes": "21rep helmet\n60s helmet"
@@ -883,13 +883,13 @@
             "notes": "Home\n10rep 8"
         },
         {
-            "muscle_group": "ne",
+            "muscle_group": "neck",
             "datetime": "2026-03-31T11:19:40.543Z",
             "sets": 1,
             "notes": "17rep helmet"
         },
         {
-            "muscle_group": "nf",
+            "muscle_group": "neck",
             "datetime": "2026-03-31T11:17:26.731Z",
             "sets": 1,
             "notes": "18rep 0"

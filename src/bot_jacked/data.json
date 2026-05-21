@@ -1,6 +1,12 @@
 {
     "workouts": [
         {
+            "muscle_group": "nf",
+            "datetime": "2026-05-20T23:35:13.990Z",
+            "sets": 1,
+            "notes": "Lateral hold 4:00"
+        },
+        {
             "muscle_group": "adductors",
             "datetime": "2026-05-19T13:22:33.854Z",
             "sets": 3,

@@ -1,6 +1,72 @@
 {
     "workouts": [
         {
+            "muscle_group": "adductors",
+            "datetime": "2026-05-27T12:48:59.822Z",
+            "sets": 3,
+            "notes": "Left machine 4 1\n17rep 120\n14rep 130\n14rep 130"
+        },
+        {
+            "muscle_group": "abductors",
+            "datetime": "2026-05-27T12:42:00.058Z",
+            "sets": 3,
+            "notes": "Right machine 1\nPause at open\n14rep 120\n14rep 120\n13rep 120"
+        },
+        {
+            "muscle_group": "hamstrings",
+            "datetime": "2026-05-27T11:56:07.304Z",
+            "sets": 2,
+            "notes": "Without tempo\n6rep 42\nTempo 5020\n6rep 35"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-05-27T11:38:40.567Z",
+            "sets": 1,
+            "notes": "Front squat\n13rep 16"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-05-26T12:57:08.300Z",
+            "sets": 2,
+            "notes": "Skull crusher\n12rep 5\n12rep 5"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-05-26T12:49:31.374Z",
+            "sets": 5,
+            "notes": "Tempo 4020\nNeutral to supinated \n10rep 15\n9rep 15\n9rep 15\n12rep 12\n\nH bar\nNo tempo\n17rep 5"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-05-26T11:40:10.476Z",
+            "sets": 4,
+            "notes": "Tempo 4020\nBehind the neck\n10rep 12\n10rep 12\n11rep 7\nFront of the neck \n8rep 7"
+        },
+        {
+            "muscle_group": "hamstrings",
+            "datetime": "2026-05-24T13:26:55.404Z",
+            "sets": 1,
+            "notes": "Without tempo\n6rep 40\nTempo 5020\n6rep 35"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-05-24T12:59:53.699Z",
+            "sets": 1,
+            "notes": "Front squat\n11rep 16"
+        },
+        {
+            "muscle_group": "adductors",
+            "datetime": "2026-05-24T12:18:53.709Z",
+            "sets": 3,
+            "notes": "Right machine 4\n16rep 120\n13rep 130\n13rep 130\nNot bad quality"
+        },
+        {
+            "muscle_group": "abductors",
+            "datetime": "2026-05-24T12:11:25.173Z",
+            "sets": 3,
+            "notes": "Right machine\nPause at open\n13rep 120\n13rep 120\n13rep 120\nQuality a little better"
+        },
+        {
             "muscle_group": "chest",
             "datetime": "2026-05-21T17:01:38.984Z",
             "sets": 1,

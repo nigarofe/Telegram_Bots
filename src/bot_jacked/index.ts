@@ -13,17 +13,17 @@ const reply = (chatId: number, text: string) => { bot.sendMessage(chatId, text, 
 bot.on('message', (msg) => {
   const chatId = msg.chat.id;
   if (chatId !== 8191447266) { return reply(chatId, `❌ You are not authorized to use this bot.`); }
-  const text = msg.text?.toLowerCase().trim();
+  const text = msg.text;
 
   if (text) { console.log(`Received message from ${msg.from?.first_name}: "${text}"`); }
   if (!text) { return reply(chatId, `❌ Please send a text message to log your workout.`); }
-  if (text === 'help' || text === '/start') { return reply(chatId, HELP_MESSAGE); }
-  if (text === 'all') { return handleAllReport(chatId); }
+  if (text === 'help' || text === 'Help' || text === '/start') { return reply(chatId, HELP_MESSAGE); }
+  if (text === 'all' || text === 'All') { return handleAllReport(chatId); }
   // if the first line of the message matches a muscle group or a muscle group followed by a number, 
   // handle it as a workout command
 
   const lines = text.split('\n');
-  const firstLine = lines[0].trim();
+  const firstLine = lines[0].trim().toLowerCase();
   const notes = lines.slice(1).join('\n').trim();
   const match = firstLine.match(/^([a-z]+)(\d*)$/);
   if (match && MUSCLE_GROUPS.includes(match[1])) {

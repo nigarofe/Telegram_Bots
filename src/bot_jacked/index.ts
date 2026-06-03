@@ -30,11 +30,11 @@ function handleAllReport(chatId: number) {
   for (const group of MUSCLE_GROUPS) {
     const stats = getStats(group);
     const capitalizedGroup = group.charAt(0).toUpperCase() + group.slice(1);
-    const hrsStr = stats.hoursSinceLast !== null ? `${stats.hoursSinceLast.toFixed(1)}h` : 'N/A';
-    response += `🔹${capitalizedGroup} - ${stats.weeklySets.toString()} sets - ${hrsStr}\n`;
+    const daysStr = stats.daysSinceLast !== null ? `${stats.daysSinceLast.toFixed(1)}d` : 'N/A';
+    response += `🔹${capitalizedGroup} - ${stats.weeklySets.toString()} sets - ${daysStr}\n`;
   }
 
-  response += `\n *Description* \n 1. Muscle Group Name\n 2. Sets in the last 7 days \n 3. Hours Since Last Set\n`;
+  response += `\n *Description* \n 1. Muscle Group Name\n 2. Sets in the last 7 days \n 3. Days Since Last Set\n`;
   reply(chatId, response);
 }
 
@@ -60,18 +60,18 @@ function handleWorkoutCommand(chatId: number, text: string) {
 
   // Generate the report
   const stats = getStats(muscleGroup);
-  const hours = stats.hoursSinceLast === null ? 'N/A' : `${stats.hoursSinceLast.toFixed(1)}h`;
+  const days = stats.daysSinceLast === null ? 'N/A' : `${stats.daysSinceLast.toFixed(1)}d`;
 
   // Update the response string to include both new averages
   let response = `📊 *${capitalizedGroup} Report*\n` +
     `You've completed *${stats.weeklySets}* sets in the last 7 days.\n` +
     `Average sets/week (last 4 weeks): *${stats.averageWeeklySets.toFixed(1)}*\n` +
     `Average sets/workout (last 4 weeks): *${stats.averageSetsPerWorkout.toFixed(1)}*\n` +
-    `Hours since last set: *${hours}*`;
+    `Days since last set: *${days}*`;
 
   if (stats.recentNotes && stats.recentNotes.length > 0) {
     response += `\n\n*Recent Notes:*\n\n` + stats.recentNotes
-      .map(note => `📝 *${note.hoursAgo} hours ago*\n${note.text}`)
+      .map(note => `📝 *${note.daysAgo} days ago*\n${note.text}`)
       .join('\n\n');
   }
 

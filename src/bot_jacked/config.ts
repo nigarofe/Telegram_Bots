@@ -2,14 +2,15 @@ import * as dotenv from 'dotenv';
 
 dotenv.config();
 export const TOKEN = process.env.BOT_JACKED_TOKEN || '';
-if (!TOKEN) {throw new Error('Missing BOT_JACKED_TOKEN in environment variables.');}
+if (!TOKEN) { throw new Error('Missing BOT_JACKED_TOKEN in environment variables.'); }
 
 export const MUSCLE_GROUPS = [
     'neck',
     'ff', 'fe', // forearm flexors, forearm extensors
     'chest', 'back', 'abs',
     'biceps', 'triceps', 'shoulders',
-    'hamstrings', 'quadriceps', 'glutes', 'abductors', 'adductors'
+    'hamstrings', 'quadriceps', 'glutes', 'abductors', 'adductors',
+    'aerobic'
 ];
 
 export const HELP_MESSAGE = `
@@ -22,7 +23,7 @@ Send a message like: \`.biceps4\`
 This logs 4 sets for biceps. Add optional notes on lines below the command!
 
 *How to view stats:*
-\`.biceps\` - Shows your sets for the last 7 days, hours since last workout, and recent notes.
+\`.biceps\` - Shows your sets for the last 7 days, days since last workout, and recent notes.
 \`.all\` - Shows a table of all muscle groups.
 
 *Available muscle groups:*

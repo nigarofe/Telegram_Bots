@@ -26,7 +26,7 @@ export function addWorkout(muscleGroup: string, sets: number, notes?: string): v
 export function getStats(muscleGroup: string): WorkoutStats {
     const parsedData = getParsedData();
     // Updated default return to include averageSetsPerWorkout
-    if (!parsedData || !parsedData.workouts) return { weeklySets: 0, hoursSinceLast: null, averageWeeklySets: 0, averageSetsPerWorkout: 0, recentNotes: [] };
+    if (!parsedData || !parsedData.workouts) return { weeklySets: 0, daysSinceLast: null, averageWeeklySets: 0, averageSetsPerWorkout: 0, recentNotes: [] };
 
     const now = new Date();
     
@@ -60,12 +60,12 @@ export function getStats(muscleGroup: string): WorkoutStats {
         }
     }
 
-    let hoursSinceLast: number | null = null;
+    let daysSinceLast: number | null = null;
     const nowTime = now.getTime();
 
     if (latestDate) {
         const msDiff = nowTime - latestDate.getTime();
-        hoursSinceLast = msDiff / (1000 * 60 * 60);
+        daysSinceLast = msDiff / (1000 * 60 * 60 * 24);
     }
 
     groupWorkouts.sort((a, b) => new Date(b.datetime).getTime() - new Date(a.datetime).getTime());
@@ -75,13 +75,13 @@ export function getStats(muscleGroup: string): WorkoutStats {
         .slice(0, 3)
         .map(w => {
             const msDiff = nowTime - new Date(w.datetime).getTime();
-            const hoursAgo = Math.round(msDiff / (1000 * 60 * 60));
-            return { text: w.notes as string, hoursAgo };
+            const daysAgo = Math.round(msDiff / (1000 * 60 * 60 * 24));
+            return { text: w.notes as string, daysAgo };
         });
 
     const averageWeeklySets = fourWeekSets / 4;
     // Calculate the average sets per workout (avoiding division by zero)
     const averageSetsPerWorkout = fourWeekWorkoutsCount > 0 ? (fourWeekSets / fourWeekWorkoutsCount) : 0;
 
-    return { weeklySets, hoursSinceLast, averageWeeklySets, averageSetsPerWorkout, recentNotes };
+    return { weeklySets, daysSinceLast, averageWeeklySets, averageSetsPerWorkout, recentNotes };
 }

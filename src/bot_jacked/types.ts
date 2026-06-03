@@ -11,8 +11,8 @@ export interface DatabaseData {
 
 export interface WorkoutStats {
     weeklySets: number;
-    hoursSinceLast: number | null;
+    daysSinceLast: number | null;
     averageWeeklySets: number;
     averageSetsPerWorkout: number; // <-- New property added
-    recentNotes: { text: string; hoursAgo: number }[];
+    recentNotes: { text: string; daysAgo: number }[];
 }

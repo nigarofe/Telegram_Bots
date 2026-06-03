@@ -331,13 +331,13 @@
             "notes": "Lateral hold 2min"
         },
         {
-            "muscle_group": "ff",
+            "muscle_group": "forearms",
             "datetime": "2026-05-06T19:38:46.144Z",
             "sets": 3,
             "notes": "12rep 7.5\n8rep 7.5\n7rep 5.5\nKeep reps > 15"
         },
         {
-            "muscle_group": "fe",
+            "muscle_group": "forearms",
             "datetime": "2026-05-06T19:32:02.280Z",
             "sets": 2,
             "notes": "13rep 5.5\n13rep 5.5"
@@ -397,13 +397,13 @@
             "notes": "Front squat \n15rep 14"
         },
         {
-            "muscle_group": "ff",
+            "muscle_group": "forearms",
             "datetime": "2026-05-01T13:51:16.025Z",
             "sets": 3,
             "notes": "15rep 7.5\n12rep 7.5\n7rep 7.0"
         },
         {
-            "muscle_group": "fe",
+            "muscle_group": "forearms",
             "datetime": "2026-05-01T13:40:32.840Z",
             "sets": 2,
             "notes": "10rep 5.5\n11rep 5.5"
@@ -499,13 +499,13 @@
             "notes": "Tempo 5020\n6rep 40\n4rep 35"
         },
         {
-            "muscle_group": "ff",
+            "muscle_group": "forearms",
             "datetime": "2026-04-25T13:22:57.460Z",
             "sets": 2,
             "notes": "15rep 7.5\n13rep 7.5"
         },
         {
-            "muscle_group": "fe",
+            "muscle_group": "forearms",
             "datetime": "2026-04-25T13:11:47.028Z",
             "sets": 2,
             "notes": "19rep 5\n19rep 5"
@@ -547,13 +547,13 @@
             "notes": "Plank\n2:10"
         },
         {
-            "muscle_group": "ff",
+            "muscle_group": "forearms",
             "datetime": "2026-04-23T15:00:06.501Z",
             "sets": 2,
             "notes": "15rep 7\n15rep 7"
         },
         {
-            "muscle_group": "fe",
+            "muscle_group": "forearms",
             "datetime": "2026-04-23T14:49:45.878Z",
             "sets": 2,
             "notes": "17rep 5\n17rep 5"
@@ -631,13 +631,13 @@
             "notes": "Plank\n110s"
         },
         {
-            "muscle_group": "fe",
+            "muscle_group": "forearms",
             "datetime": "2026-04-18T14:11:10.773Z",
             "sets": 2,
             "notes": "15rep 5\n15rep 5"
         },
         {
-            "muscle_group": "ff",
+            "muscle_group": "forearms",
             "datetime": "2026-04-18T14:01:17.439Z",
             "sets": 2,
             "notes": "15rep 6.5\n15rep 6.5"
@@ -697,13 +697,13 @@
             "notes": "Right machine\n17rep 110\n15rep 120\nMachine passed by maintenance"
         },
         {
-            "muscle_group": "fe",
+            "muscle_group": "forearms",
             "datetime": "2026-04-15T20:41:07.883Z",
             "sets": 2,
             "notes": "13rep 5\n13rep 5"
         },
         {
-            "muscle_group": "ff",
+            "muscle_group": "forearms",
             "datetime": "2026-04-15T20:32:36.567Z",
             "sets": 2,
             "notes": "15rep 6\n15rep 6"
@@ -757,13 +757,13 @@
             "notes": "Plank \n90s"
         },
         {
-            "muscle_group": "ff",
+            "muscle_group": "forearms",
             "datetime": "2026-04-12T11:29:04.956Z",
             "sets": 2,
             "notes": "15rep 5.5\n15rep 5.5"
         },
         {
-            "muscle_group": "fe",
+            "muscle_group": "forearms",
             "datetime": "2026-04-12T11:24:28.234Z",
             "sets": 2,
             "notes": "11rep 5\n11rep 5"
@@ -823,13 +823,13 @@
             "notes": "Tempo 4020\n8rep 35"
         },
         {
-            "muscle_group": "ff",
+            "muscle_group": "forearms",
             "datetime": "2026-04-09T11:34:29.129Z",
             "sets": 2,
             "notes": "15rep 5\n15rep 5"
         },
         {
-            "muscle_group": "fe",
+            "muscle_group": "forearms",
             "datetime": "2026-04-09T11:29:59.065Z",
             "sets": 2,
             "notes": "9rep 5\n9rep 5"
@@ -895,13 +895,13 @@
             "notes": "Tempo 4020\n12rep 30"
         },
         {
-            "muscle_group": "fe",
+            "muscle_group": "forearms",
             "datetime": "2026-04-05T11:07:01.831Z",
             "sets": 2,
             "notes": "8rep 5\n8rep 5"
         },
         {
-            "muscle_group": "ff",
+            "muscle_group": "forearms",
             "datetime": "2026-04-05T11:03:56.045Z",
             "sets": 2,
             "notes": "14rep 5\n13rep 5"
@@ -1033,13 +1033,13 @@
             "notes": "18rep 0"
         },
         {
-            "muscle_group": "fe",
+            "muscle_group": "forearms",
             "datetime": "2026-03-30T10:12:01.275Z",
             "sets": 2,
             "notes": "7rep 5\n7rep 5"
         },
         {
-            "muscle_group": "ff",
+            "muscle_group": "forearms",
             "datetime": "2026-03-30T10:10:23.950Z",
             "sets": 2,
             "notes": "12rep 5\n12rep 5"

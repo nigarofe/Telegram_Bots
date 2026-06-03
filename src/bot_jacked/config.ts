@@ -5,8 +5,7 @@ export const TOKEN = process.env.BOT_JACKED_TOKEN || '';
 if (!TOKEN) { throw new Error('Missing BOT_JACKED_TOKEN in environment variables.'); }
 
 export const MUSCLE_GROUPS = [
-    'neck',
-    'ff', 'fe', // forearm flexors, forearm extensors
+    'neck', 'forearms',
     'chest', 'back', 'abs',
     'biceps', 'triceps', 'shoulders',
     'hamstrings', 'quadriceps', 'glutes', 'abductors', 'adductors',

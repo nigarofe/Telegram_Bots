@@ -13,7 +13,7 @@ const reply = (chatId: number, text: string) => { bot.sendMessage(chatId, text, 
 bot.on('message', (msg) => {
   const chatId = msg.chat.id;
   if (chatId !== 8191447266) { return reply(chatId, `❌ You are not authorized to use this bot.`); }
-  const text = msg.text;
+  const text = msg.text?.toLowerCase().trim();
 
   if (text) { console.log(`Received message from ${msg.from?.first_name}: "${text}"`); }
   if (!text) { return reply(chatId, `❌ Please send a text message to log your workout.`); }
@@ -23,7 +23,7 @@ bot.on('message', (msg) => {
   // handle it as a workout command
 
   const lines = text.split('\n');
-  const firstLine = lines[0].trim().toLowerCase();
+  const firstLine = lines[0].trim();
   const notes = lines.slice(1).join('\n').trim();
   const match = firstLine.match(/^([a-z]+)(\d*)$/);
   if (match && MUSCLE_GROUPS.includes(match[1])) {

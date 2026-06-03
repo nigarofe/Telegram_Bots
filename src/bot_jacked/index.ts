@@ -31,7 +31,8 @@ function handleAllReport(chatId: number) {
     const stats = getStats(group);
     const capitalizedGroup = group.charAt(0).toUpperCase() + group.slice(1);
     const daysStr = stats.daysSinceLast !== null ? `${stats.daysSinceLast.toFixed(1)}d` : 'N/A';
-    response += `🔹${capitalizedGroup} - ${stats.weeklySets.toString()} sets - ${daysStr}\n`;
+    // response += `🔹${capitalizedGroup} - ${stats.weeklySets.toString()} sets - ${daysStr}\n`;
+    response += `🔹${capitalizedGroup} - ${daysStr}\n`;
   }
 
   response += `\n *Description* \n 1. Muscle Group Name\n 2. Sets in the last 7 days \n 3. Days Since Last Set\n`;

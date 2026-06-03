@@ -29,15 +29,15 @@ export function getStats(muscleGroup: string): WorkoutStats {
     if (!parsedData || !parsedData.workouts) return { weeklySets: 0, daysSinceLast: null, averageWeeklySets: 0, averageSetsPerWorkout: 0, recentNotes: [] };
 
     const now = new Date();
-    
+
     const sevenDaysAgo = new Date(now);
     sevenDaysAgo.setDate(now.getDate() - 7);
-    
+
     const twentyEightDaysAgo = new Date(now);
     twentyEightDaysAgo.setDate(now.getDate() - 28);
 
     let weeklySets = 0;
-    let fourWeekSets = 0; 
+    let fourWeekSets = 0;
     let fourWeekWorkoutsCount = 0; // <-- Track total workouts in the last 4 weeks
     let latestDate: Date | null = null;
     const groupWorkouts = [];
@@ -47,15 +47,15 @@ export function getStats(muscleGroup: string): WorkoutStats {
             const workoutDate = new Date(workout.datetime);
             groupWorkouts.push(workout);
 
-            if (workoutDate >= twentyEightDaysAgo) { 
-                fourWeekSets += workout.sets; 
+            if (workoutDate >= twentyEightDaysAgo) {
+                fourWeekSets += workout.sets;
                 fourWeekWorkoutsCount++; // <-- Increment workout count
-                
-                if (workoutDate >= sevenDaysAgo) { 
-                    weeklySets += workout.sets; 
+
+                if (workoutDate >= sevenDaysAgo) {
+                    weeklySets += workout.sets;
                 }
             }
-            
+
             if (!latestDate || workoutDate > latestDate) { latestDate = workoutDate; }
         }
     }
@@ -69,13 +69,13 @@ export function getStats(muscleGroup: string): WorkoutStats {
     }
 
     groupWorkouts.sort((a, b) => new Date(b.datetime).getTime() - new Date(a.datetime).getTime());
-    
+
     const recentNotes = groupWorkouts
         .filter(w => w.notes && w.notes.trim() !== '')
         .slice(0, 3)
         .map(w => {
             const msDiff = nowTime - new Date(w.datetime).getTime();
-            const daysAgo = Math.round(msDiff / (1000 * 60 * 60 * 24));
+            const daysAgo = Number((msDiff / (1000 * 60 * 60 * 24)).toFixed(1));
             return { text: w.notes as string, daysAgo };
         });
 

@@ -35,7 +35,8 @@ function handleAllReport(chatId: number) {
     response += `🔹${capitalizedGroup} - ${daysStr}\n`;
   }
 
-  response += `\n *Description* \n 1. Muscle Group Name\n 2. Sets in the last 7 days \n 3. Days Since Last Set\n`;
+  // response += `\n *Description* \n 1. Muscle Group Name\n 2. Sets in the last 7 days \n 3. Days Since Last Set\n`;
+  response += `\n *Description* \n Muscle Group - Days Since Last Set\n`;
   reply(chatId, response);
 }
 

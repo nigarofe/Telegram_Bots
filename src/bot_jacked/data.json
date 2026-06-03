@@ -2,6 +2,78 @@
     "workouts": [
         {
             "muscle_group": "adductors",
+            "datetime": "2026-06-03T13:37:37.859Z",
+            "sets": 3,
+            "notes": "Left machine 4 1\n15rep 140\n14rep 140\n13rep 140"
+        },
+        {
+            "muscle_group": "abductors",
+            "datetime": "2026-06-03T13:30:02.680Z",
+            "sets": 3,
+            "notes": "Left machine 1 1\nPause at open\n15rep 120\n15rep 120\n14rep 120"
+        },
+        {
+            "muscle_group": "hamstrings",
+            "datetime": "2026-06-02T19:27:36.161Z",
+            "sets": 2,
+            "notes": "Without tempo\n6rep 45\nTempo 5020\n6rep 35"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-06-02T19:10:53.597Z",
+            "sets": 1,
+            "notes": "Bulgarian split squat\n10rep 10"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-06-01T11:40:12.108Z",
+            "sets": 2,
+            "notes": "Skull crusher\n14rep 5.5\n14rep 5.5"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-06-01T11:29:37.019Z",
+            "sets": 5,
+            "notes": "Tempo 4020\nNeutral to supinated\n10rep 15\n10rep 15\n10rep 15\n\nH bar\nNo tempo\n20rep 5.5\n22rep 5.5"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-06-01T11:03:38.569Z",
+            "sets": 5,
+            "notes": "Tempo 4020\nBehind the neck\n11rep 12\n10rep 12\n12rep 7\nFront of the neck\n10rep 7\n6rep 7\nStagnation. Increased number of sets."
+        },
+        {
+            "muscle_group": "adductors",
+            "datetime": "2026-05-31T12:19:06.829Z",
+            "sets": 3,
+            "notes": "Left machine 4 1\n15rep 130\n15rep 130\n17rep 130\nIncrease weight next time"
+        },
+        {
+            "muscle_group": "abductors",
+            "datetime": "2026-05-31T12:11:29.545Z",
+            "sets": 3,
+            "notes": "Right machine 1 1\nPause at open\n14rep 120\n14rep 120\n14rep 120"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-05-29T10:51:07.511Z",
+            "sets": 2,
+            "notes": "Skull crusher\n14rep 5\n14rep 4"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-05-29T10:38:27.714Z",
+            "sets": 5,
+            "notes": "Tempo 4020\nNeutral to supinated\n10rep 15\n10rep 15\n9rep 15\n\nH bar\nNo tempo\n20rep 5\n20rep 5"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-05-29T10:09:37.828Z",
+            "sets": 4,
+            "notes": "Tempo 4020\nBehind the neck\n11rep 12\n10rep 12\n12rep 7\nFront of the neck\n9rep 7\n\nEverything improved. I think all I needed was more sets (4 sets instead of just 3)"
+        },
+        {
+            "muscle_group": "adductors",
             "datetime": "2026-05-27T12:48:59.822Z",
             "sets": 3,
             "notes": "Left machine 4 1\n17rep 120\n14rep 130\n14rep 130"

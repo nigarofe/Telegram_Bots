@@ -17,9 +17,21 @@ bot.on('message', (msg) => {
 
   if (text) { console.log(`Received message from ${msg.from?.first_name}: "${text}"`); }
   if (!text) { return reply(chatId, `❌ Please send a text message to log your workout.`); }
-  if (text === '/help' || text === '/start') { return reply(chatId, HELP_MESSAGE); }
-  if (text === '.all') { return handleAllReport(chatId); }
-  if (text.startsWith('.')) { return handleWorkoutCommand(chatId, text); }
+  if (text === 'help' || text === '/start') { return reply(chatId, HELP_MESSAGE); }
+  if (text === 'all') { return handleAllReport(chatId); }
+  // if the first line of the message matches a muscle group or a muscle group followed by a number, 
+  // handle it as a workout command
+
+  const lines = text.split('\n');
+  const firstLine = lines[0].trim();
+  const notes = lines.slice(1).join('\n').trim();
+  const match = firstLine.match(/^([a-z]+)(\d*)$/);
+  if (match && MUSCLE_GROUPS.includes(match[1])) {
+    return handleWorkoutCommand(chatId, match[1], match[2], notes);
+  } else {
+    return reply(chatId, `❌ Unknown muscle group: ${match ? match[1] || firstLine : firstLine}. Use /help to see available muscle groups and how to log workouts.`);
+  }
+
   reply(chatId, `❓ I didn't understand that. Use /help to see how to track your workouts!`);
 });
 
@@ -40,21 +52,11 @@ function handleAllReport(chatId: number) {
   reply(chatId, response);
 }
 
-function handleWorkoutCommand(chatId: number, text: string) {
-  const lines = text.split('\n');
-  const firstLine = lines[0].trim();
-  const notes = lines.slice(1).join('\n').trim();
-
-  const match = firstLine.match(/^\.([a-z]+)(\d*)$/) || ['', '', ''];
-  const muscleGroup = match[1];
-  const setsStr = match[2];
-
-  if (!MUSCLE_GROUPS.includes(muscleGroup)) { return reply(chatId, `❌ Unknown muscle group: ${muscleGroup}`); }
-
+function handleWorkoutCommand(chatId: number, muscleGroup: string, setsStr: string, notes: string) {
   const capitalizedGroup = muscleGroup.charAt(0).toUpperCase() + muscleGroup.slice(1);
 
-  // Log the workout
   if (setsStr !== '') {
+    // Log the workout
     const sets = parseInt(setsStr, 10);
     addWorkout(muscleGroup, sets, notes);
     return reply(chatId, `✅ Logged ${sets} set${sets > 1 ? 's' : ''} for ${capitalizedGroup}!`);

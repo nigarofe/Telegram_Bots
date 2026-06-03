@@ -33,6 +33,26 @@ bot.on('message', (msg) => {
     reply(chatId, `❓ I didn't understand that. Send a number to log your weight, or use /help!`);
 });
 
+
+
+
+
+function getTargetWeight() {
+    const BULK_START_DATE = new Date('2026-05-01');
+    const BULK_START_WEIGHT = 70;
+    const BULK_RATE_MONTH = 1.01; // 1% gain per month during bulk
+    const BULK_RATE_DAY = Math.pow(BULK_RATE_MONTH, 1 / 30); // Convert monthly rate to daily
+
+    const now = new Date();
+    const daysSinceBulkStart = Math.floor((now.getTime() - BULK_START_DATE.getTime()) / (1000 * 60 * 60 * 24));
+    const targetWeight = BULK_START_WEIGHT * Math.pow(BULK_RATE_DAY, daysSinceBulkStart);
+    return targetWeight;
+}
+
+
+
+
+
 function handleReport(chatId: number) {
     const data = getWeightData();
 
@@ -68,6 +88,7 @@ function handleReport(chatId: number) {
     }
 
     let reportMsg = '📊 *5-Week Weight Report*\n\n';
+    reportMsg += `🎯 Target weight for today: *${getTargetWeight().toFixed(2)} kg*\n\n`;
 
     // Loop through the collected data to build the report string
     for (let i = 0; i < 5; i++) {
@@ -95,7 +116,7 @@ function handleReport(chatId: number) {
 
     // Attach the 7 most recent logged weight at the bottom for reference
     reportMsg += `\n*Last weights* (oldest to most recent)\n`;
-    for(let i = data.length - 7; i < data.length; i++) {
+    for (let i = data.length - 7; i < data.length; i++) {
         const entry = data[i];
         reportMsg += `${entry.bodyweight} kg \n`;
     }

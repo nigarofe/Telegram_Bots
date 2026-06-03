@@ -23,7 +23,7 @@ bot.on('message', (msg) => {
   // handle it as a workout command
 
   const lines = text.split('\n');
-  const firstLine = lines[0].trim();
+  const firstLine = lines[0].trim().toLowerCase();
   const notes = lines.slice(1).join('\n').trim();
   const match = firstLine.match(/^([a-z]+)(\d*)$/);
   if (match && MUSCLE_GROUPS.includes(match[1])) {

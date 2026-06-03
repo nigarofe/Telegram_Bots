@@ -5,11 +5,12 @@ export const TOKEN = process.env.BOT_JACKED_TOKEN || '';
 if (!TOKEN) { throw new Error('Missing BOT_JACKED_TOKEN in environment variables.'); }
 
 export const MUSCLE_GROUPS = [
-    'neck', 'forearms',
-    'chest', 'back', 'abs',
-    'biceps', 'triceps', 'shoulders',
+    // Upper body
+    'chest', 'back', 'abs', 'biceps', 'triceps', 'shoulders',
+    // Lower body
     'hamstrings', 'quadriceps', 'glutes', 'abductors', 'adductors',
-    'aerobic'
+    // Others
+    'neck', 'forearms', 'aerobic', 'isometrics',
 ];
 
 export const HELP_MESSAGE = `

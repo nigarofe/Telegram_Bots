@@ -31,26 +31,49 @@ bot.on('message', (msg) => {
   } else {
     return reply(chatId, `❌ Unknown muscle group: ${match ? match[1] || firstLine : firstLine}. Use /help to see available muscle groups and how to log workouts.`);
   }
-
-  reply(chatId, `❓ I didn't understand that. Use /help to see how to track your workouts!`);
 });
 
 
-function handleAllReport(chatId: number) {
-  let response = '📊 *All Muscle Groups Report*\n\n';
 
-  for (const group of MUSCLE_GROUPS) {
+
+
+function handleAllReport(chatId: number) {
+  const upperBodyGroups = ['chest', 'back', 'abs', 'biceps', 'triceps', 'shoulders'];
+  const lowerBodyGroups = ['hamstrings', 'quadriceps', 'glutes', 'abductors', 'adductors'];
+  const otherGroups = ['neck', 'forearms', 'aerobic', 'isometrics'];
+
+  const formatLine = (group: string) => {
     const stats = getStats(group);
     const capitalizedGroup = group.charAt(0).toUpperCase() + group.slice(1);
     const daysStr = stats.daysSinceLast !== null ? `${stats.daysSinceLast.toFixed(1)}d` : 'N/A';
-    // response += `🔹${capitalizedGroup} - ${stats.weeklySets.toString()} sets - ${daysStr}\n`;
-    response += `🔹${capitalizedGroup} - ${daysStr}\n`;
-  }
+    return `🔹${capitalizedGroup} - ${daysStr}`;
+  };
 
-  // response += `\n *Description* \n 1. Muscle Group Name\n 2. Sets in the last 7 days \n 3. Days Since Last Set\n`;
-  response += `\n *Description* \n Muscle Group - Days Since Last Set\n`;
+  const response = [
+    '📊 *All Muscle Groups Report*',
+    '',
+    '*Upper Body*',
+    '{upperBody}',
+    '',
+    '*Lower Body*',
+    '{lowerBody}',
+    '',
+    '*Others*',
+    '{others}',
+    '',
+    '*Description*',
+    'Muscle Group - Days Since Last Set'
+  ].join('\n')
+    .replace('{upperBody}', upperBodyGroups.map(formatLine).join('\n'))
+    .replace('{lowerBody}', lowerBodyGroups.map(formatLine).join('\n'))
+    .replace('{others}', otherGroups.map(formatLine).join('\n'));
+
   reply(chatId, response);
 }
+
+
+
+
 
 function handleWorkoutCommand(chatId: number, muscleGroup: string, setsStr: string, notes: string) {
   const capitalizedGroup = muscleGroup.charAt(0).toUpperCase() + muscleGroup.slice(1);

@@ -1,6 +1,48 @@
 {
     "workouts": [
         {
+            "muscle_group": "triceps",
+            "datetime": "2026-06-10T13:14:09.947Z",
+            "sets": 3,
+            "notes": "Skull crusher\n15rep 5.5\n14rep 5.5\n9rep 5"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-06-10T13:02:27.123Z",
+            "sets": 6,
+            "notes": "Tempo 4020\nNeutral to supinated\n10rep 15\n10rep 15\n9rep 15\n\nH bar\nNo tempo\n20rep 6\n20rep 6\n21rep 6"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-06-10T12:37:22.496Z",
+            "sets": 6,
+            "notes": "Tempo 4020\nBehind the neck\n11rep 12\n9rep 12\n11rep 7\n\nFront of the neck\n8rep 7\n8rep 7\n8rep 7"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-06-08T20:24:24.627Z",
+            "sets": 1,
+            "notes": "10rep 15"
+        },
+        {
+            "muscle_group": "adductors",
+            "datetime": "2026-06-08T13:26:03.898Z",
+            "sets": 3,
+            "notes": "Left machine 4 1\n15rep 140\n15rep 140\n15rep 140"
+        },
+        {
+            "muscle_group": "abductors",
+            "datetime": "2026-06-08T13:18:40.416Z",
+            "sets": 3,
+            "notes": "Left machine 1 1\nPause at open\n16rep 120\n16rep 120\n15rep 120"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-06-08T08:01:34.203Z",
+            "sets": 5,
+            "notes": "Tempo 4020\nBehind the neck\n11rep 12\n8rep 12\n10rep 7\n\nFront of the neck\n8rep 7\n8rep 7\n\n\nSmall regression because last set was 7 days ago"
+        },
+        {
             "muscle_group": "aerobic",
             "datetime": "2026-05-07T12:49:20.876Z",
             "sets": 1,

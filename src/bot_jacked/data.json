@@ -2,6 +2,60 @@
     "workouts": [
         {
             "muscle_group": "triceps",
+            "datetime": "2026-06-21T13:11:04.729Z",
+            "sets": 3,
+            "notes": "Skull crusher\n15rep 5.5\n15rep 5.5\n15rep 5.5"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-06-21T12:53:51.099Z",
+            "sets": 6,
+            "notes": "Tempo 4020\nNeutral to supinated\n10rep 15\n11rep 15\n10rep 15\nNeeds quality improvement \n\nH bar\nNo tempo\n20rep 7.5\n20rep 7.5\n18rep 7.5"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-06-21T12:12:40.110Z",
+            "sets": 6,
+            "notes": "Tempo 4020\nBehind the neck\n10rep 12\n11rep 12\n13rep 7.5\n\nFront of the neck\n10rep 7.5\n10rep 7.5\n10rep 7.5"
+        },
+        {
+            "muscle_group": "abs",
+            "datetime": "2026-06-20T23:23:40.028Z",
+            "sets": 1,
+            "notes": "Plank\n1:08"
+        },
+        {
+            "muscle_group": "aerobic",
+            "datetime": "2026-06-20T13:11:56.058Z",
+            "sets": 1,
+            "notes": "Esteira\n7km/h 3.5km 3667 steps"
+        },
+        {
+            "muscle_group": "adductors",
+            "datetime": "2026-06-20T12:39:38.333Z",
+            "sets": 4,
+            "notes": "90s rest\nLeft machine 4 1\n15rep 130\n15rep 130\n15rep 130\n15rep 130"
+        },
+        {
+            "muscle_group": "abductors",
+            "datetime": "2026-06-20T12:31:14.692Z",
+            "sets": 4,
+            "notes": "90s rest\nRight machine 1 1\nPause at open\n15rep 120\n15rep 120\n15rep 120\n15rep 120"
+        },
+        {
+            "muscle_group": "hamstrings",
+            "datetime": "2026-06-20T11:39:04.590Z",
+            "sets": 2,
+            "notes": "Without tempo\n5rep 51\nHand slip\n\nTempo 5020\n7rep 37"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-06-20T10:45:53.536Z",
+            "sets": 1,
+            "notes": "Bulgarian split squat\n10rep 12"
+        },
+        {
+            "muscle_group": "triceps",
             "datetime": "2026-06-16T13:03:40.863Z",
             "sets": 3,
             "notes": "Skull crusher\n15rep 5.5\n15rep 5.5\n14rep 5"

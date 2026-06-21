@@ -16,7 +16,7 @@ bot.on('message', (msg) => {
     if (text) { console.log(`Received message from ${msg.from?.first_name}: "${text}"`); }
     if (!text) { return reply(chatId, `❌ Please send a text message to log your weight.`); }
     if (text === '/help' || text === '/start') { return reply(chatId, HELP_MESSAGE); }
-    if (text === '.report') { return handleReport(chatId); }
+    if (text === 'report' || text === 'Report') { return handleReport(chatId); }
 
     // Regex check to see if the text is a valid number with either a period or a comma
     if (/^\d+([.,]\d+)?$/.test(text)) {
@@ -41,7 +41,7 @@ function getTargetWeight() {
     const BULK_START_DATE = new Date('2026-05-01');
     const BULK_START_WEIGHT = 70;
     const BULK_RATE_MONTH = 1.01; // 1% gain per month during bulk
-    const BULK_RATE_DAY = Math.pow(BULK_RATE_MONTH, 1 / 30); // Convert monthly rate to daily
+    const BULK_RATE_DAY = Math.pow(BULK_RATE_MONTH, 1 / 30.42); // Convert monthly rate to daily
 
     const now = new Date();
     const daysSinceBulkStart = Math.floor((now.getTime() - BULK_START_DATE.getTime()) / (1000 * 60 * 60 * 24));
@@ -114,9 +114,10 @@ function handleReport(chatId: number) {
         }
     }
 
-    // Attach the 7 most recent logged weight at the bottom for reference
+    // Attach the logged weights used for the most recent average calculation 
     reportMsg += `\n*Last weights* (oldest to most recent)\n`;
-    for (let i = data.length - 7; i < data.length; i++) {
+    const recentCount = weeksData[0].entries;
+    for (let i = data.length - recentCount; i < data.length; i++) {
         const entry = data[i];
         reportMsg += `${entry.bodyweight} kg \n`;
     }

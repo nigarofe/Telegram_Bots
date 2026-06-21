@@ -87,35 +87,47 @@ function handleReport(chatId: number) {
         });
     }
 
-    let reportMsg = '📊 *5-Week Weight Report*\n\n';
+    let reportMsg = '📊 *Weight Report*\n\n';
     reportMsg += `🎯 Target weight for today: *${getTargetWeight().toFixed(2)} kg*\n\n`;
-
-    // Loop through the collected data to build the report string
-    for (let i = 0; i < 5; i++) {
-        const current = weeksData[i];
-        const startDay = i * 7;
-        const endDay = (i + 1) * 7;
-
-        if (current.entries > 0) {
-            reportMsg += `📅 Week ${i + 1} (-${startDay} to -${endDay}d)\n`;
-            reportMsg += `   ↳ Average (${current.entries} entries): *${current.avg.toFixed(2)} kg* \n`;
-        } else {
-            reportMsg += `📅 *Week ${i + 1} (-${startDay} to -${endDay}d):* N/A\n`;
-        }
-
-        // Compare with the older week (which is i + 1 in the array)
-        if (i < 4) {
-            const older = weeksData[i + 1];
-            const diffKg = current.avg - older.avg;
-            const diffBps = (diffKg / older.avg) * 10000;
-            const sign = diffKg > 0 ? '+' : '';
-
-            reportMsg += `   ↳ Change from previous week:* ${sign}${diffBps.toFixed(0)} bps*\n\n`;
-        }
+    // Difference in bps from last week average from target
+    if (weeksData[0].entries > 0) {
+        const diffKg = weeksData[0].avg - getTargetWeight();
+        const diffBps = (diffKg / getTargetWeight()) * 10000;
+        const sign = diffBps > 0 ? '+' : '';
+        reportMsg += `⚖️ Last 7 days average from target: *${sign}${diffBps.toFixed(0)} bps*\n\n`;
+    } else {
+        reportMsg += `⚖️ Last 7 days average from target: *N/A*\n\n`;
     }
 
+    // reportMsg += "\n\n\n";
+    
+
+    // // Loop through the collected data to build the report string
+    // for (let i = 0; i < 5; i++) {
+    //     const current = weeksData[i];
+    //     const startDay = i * 7;
+    //     const endDay = (i + 1) * 7;
+
+    //     if (current.entries > 0) {
+    //         reportMsg += `📅 Week ${i + 1} (-${startDay} to -${endDay}d)\n`;
+    //         reportMsg += `   ↳ Average (${current.entries} entries): *${current.avg.toFixed(2)} kg* \n`;
+    //     } else {
+    //         reportMsg += `📅 *Week ${i + 1} (-${startDay} to -${endDay}d):* N/A\n`;
+    //     }
+
+    //     // Compare with the older week (which is i + 1 in the array)
+    //     if (i < 4) {
+    //         const older = weeksData[i + 1];
+    //         const diffKg = current.avg - older.avg;
+    //         const diffBps = (diffKg / older.avg) * 10000;
+    //         const sign = diffKg > 0 ? '+' : '';
+
+    //         reportMsg += `   ↳ Change from previous week:* ${sign}${diffBps.toFixed(0)} bps*\n\n`;
+    //     }
+    // }
+
     // Attach the logged weights used for the most recent average calculation 
-    reportMsg += `\n*Last weights* (oldest to most recent)\n`;
+    reportMsg += `\n*🕰️ Last weights* (oldest to most recent)\n`;
     const recentCount = weeksData[0].entries;
     for (let i = data.length - recentCount; i < data.length; i++) {
         const entry = data[i];

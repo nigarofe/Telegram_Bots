@@ -107,10 +107,10 @@ function handleReport(chatId: number) {
         if (i < 4) {
             const older = weeksData[i + 1];
             const diffKg = current.avg - older.avg;
-            const diffPct = (diffKg / older.avg) * 100;
+            const diffBps = (diffKg / older.avg) * 10000;
             const sign = diffKg > 0 ? '+' : '';
 
-            reportMsg += `   ↳ Change from previous week:* ${sign}${diffPct.toFixed(2)}%*\n\n`;
+            reportMsg += `   ↳ Change from previous week:* ${sign}${diffBps.toFixed(0)} bps*\n\n`;
         }
     }
 

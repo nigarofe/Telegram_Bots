@@ -1,6 +1,72 @@
 {
     "workouts": [
         {
+            "muscle_group": "glutes",
+            "datetime": "2026-07-06T12:12:32.393Z",
+            "sets": 1,
+            "notes": "12rep 13.5\n30s 13.5"
+        },
+        {
+            "muscle_group": "neck",
+            "datetime": "2026-07-04T12:49:19.882Z",
+            "sets": 1,
+            "notes": "Hold with helmet\nFront 45s 0\nBack 45s 0\nLateral 45s 0"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-07-04T12:38:58.626Z",
+            "sets": 3,
+            "notes": "Skull crusher\n33s 6\n15rep 6\n15rep 6\n14rep 6"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-07-04T12:23:40.740Z",
+            "sets": 6,
+            "notes": "Tempo 4020\nNeutral to supinated\n10rep 15\n10rep 15\n10rep 15\n36s 13\n\nH bar\nNo tempo\n20rep 8\n20rep 8\n20rep 8\n45s 8"
+        },
+        {
+            "muscle_group": "isometrics",
+            "datetime": "2026-07-04T02:29:30.329Z",
+            "sets": 1,
+            "notes": "Biceps hold\n45s 12kg"
+        },
+        {
+            "muscle_group": "isometrics",
+            "datetime": "2026-07-03T20:54:27.134Z",
+            "sets": 1,
+            "notes": "Biceps hold\n45s 8kg"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-07-03T12:26:45.223Z",
+            "sets": 6,
+            "notes": "Tempo 4020\nBehind the neck\n15rep 7\n10rep 12\n9rep 12\n\nFront of the neck\n12rep 7.5\n12rep 7.5\n12rep 7.5\n\nBehind of the neck hold\n45s 5kg"
+        },
+        {
+            "muscle_group": "hamstrings",
+            "datetime": "2026-07-01T13:15:11.968Z",
+            "sets": 2,
+            "notes": "Without tempo\n6rep 52\n\nTempo 5020\n6rep 38\n\nDon't increase weight next time. Increase reps."
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-07-01T12:27:33.610Z",
+            "sets": 1,
+            "notes": "Bulgarian split squat \nStop at low\n15rep 12"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-07-01T12:01:43.000Z",
+            "sets": 3,
+            "notes": "Skull crusher\n17rep 5.5\n17rep 5.5\n17rep 5.5"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-06-30T11:53:59.061Z",
+            "sets": 6,
+            "notes": "Tempo 4020\nNeutral to supinated \n10rep 15\n10rep 15\n10rep 15\n\nDon't increase rep next time\n\n\nH bar\nNo tempo\n22rep 7.5\n22rep 7.5\n22rep 7.5\nIncrease weight next time"
+        },
+        {
             "muscle_group": "shoulders",
             "datetime": "2026-06-29T12:47:00.182Z",
             "sets": 6,

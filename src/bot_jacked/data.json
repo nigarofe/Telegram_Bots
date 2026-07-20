@@ -1,6 +1,60 @@
 {
     "workouts": [
         {
+            "muscle_group": "aerobic",
+            "datetime": "2026-07-19T13:32:19.747Z",
+            "sets": 1,
+            "notes": "Esteira\n6km/h 4.0km 4460 steps"
+        },
+        {
+            "muscle_group": "adductors",
+            "datetime": "2026-07-19T12:50:06.726Z",
+            "sets": 3,
+            "notes": "90s rest\nLeft machine 4 1\n16rep 120\n16rep 120\n13rep 120"
+        },
+        {
+            "muscle_group": "abductors",
+            "datetime": "2026-07-19T12:43:18.316Z",
+            "sets": 3,
+            "notes": "90s rest\nRight machine 1 1\nPause at open\n16rep 110\n16rep 110\n15rep 110"
+        },
+        {
+            "muscle_group": "hamstrings",
+            "datetime": "2026-07-19T12:05:01.607Z",
+            "sets": 2,
+            "notes": "Without tempo\n6rep 54\n\nTempo 5020\n7rep 39\n\n45s 39"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-07-19T11:11:31.876Z",
+            "sets": 1,
+            "notes": "Bulgarian split squat \n11rep 16\n35s 16"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-07-16T20:09:55.522Z",
+            "sets": 1,
+            "notes": "Bulgarian split squat \n10rep 16\n30s 16"
+        },
+        {
+            "muscle_group": "neck",
+            "datetime": "2026-07-13T21:03:09.112Z",
+            "sets": 1,
+            "notes": "Lateral hold\n45s 3.0\n\nHold with belt \nBack 45s 3.0\nFront 32s 3.0"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-07-13T20:47:48.696Z",
+            "sets": 3,
+            "notes": "Skull crusher\n45s 7\n14rep 6.5\n14rep 6.5\n13rep 6.5"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-07-13T20:25:23.251Z",
+            "sets": 6,
+            "notes": "Tempo 4020\nNeutral to supinated\n10rep 15\n10rep 15\n10rep 15\n33s 15\n33s 15\n\nH bar\nNo tempo\n22rep 8\n22rep 8\n22rep 8\n36s 12"
+        },
+        {
             "muscle_group": "shoulders",
             "datetime": "2026-07-13T10:57:46.998Z",
             "sets": 6,

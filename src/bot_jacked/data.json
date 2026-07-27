@@ -1,6 +1,54 @@
 {
     "workouts": [
         {
+            "muscle_group": "shoulders",
+            "datetime": "2026-07-26T11:10:35.968Z",
+            "sets": 7,
+            "notes": "Tempo 4020\n\nBehind the neck\n15rep 7.5\n10rep 12\n9rep 12\n\nFront of the neck\n10rep 8\n10rep 8\n10rep 8\n5rep 10\n\nBehind the neck hold\n35s 13.5\n35s 13.5\n\nFront of the neck hold\n32s 17"
+        },
+        {
+            "muscle_group": "neck",
+            "datetime": "2026-07-25T18:22:24.487Z",
+            "sets": 1,
+            "notes": "Lateral hold\n45s 4.0\n\nHold with belt\nBack 45s 5.0\nFront 40s 3.0"
+        },
+        {
+            "muscle_group": "hamstrings",
+            "datetime": "2026-07-25T17:59:12.777Z",
+            "sets": 2,
+            "notes": "Without tempo\n3+1rep 55\n(Failed attempt)\n\nTempo 5020\n8rep 40\n\n31s 41"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-07-25T13:59:37.544Z",
+            "sets": 1,
+            "notes": "Bulgarian split squat \n12rep 16\n30s 17"
+        },
+        {
+            "muscle_group": "neck",
+            "datetime": "2026-07-20T22:14:41.677Z",
+            "sets": 1,
+            "notes": "Lateral hold \n45s 3.5\n\nHold with belt\nBack 45s 4.0\nFront 35s 3.0"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-07-20T21:54:57.195Z",
+            "sets": 3,
+            "notes": "Skull crusher \n45s 7.5\n14rep 6.5\n13rep 6.5\n13rep 6.5"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-07-20T21:33:24.027Z",
+            "sets": 6,
+            "notes": "Tempo 4020\nNeutral to supinated \n10rep 15\n10rep 15\n10rep 15\n45s 15\n35s 15\n\nH bar\nNo tempo\n20rep 8.5\n20rep 8.5\n20rep 8.5\n31s 13"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-07-20T19:04:32.892Z",
+            "sets": 6,
+            "notes": "Tempo 4020\n\nBehind the neck\n15rep 7.5\n10rep 12\n9rep 12\n\nFront of the neck\n8rep 8\n8rep 8\n8rep 8\n\nBehind the neck hold\n35s 13\n35s 13\n\nFront of the neck hold\n45s 15"
+        },
+        {
             "muscle_group": "aerobic",
             "datetime": "2026-07-19T13:32:19.747Z",
             "sets": 1,

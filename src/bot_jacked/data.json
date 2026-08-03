@@ -2,6 +2,54 @@
     "workouts": [
         {
             "muscle_group": "shoulders",
+            "datetime": "2026-08-02T19:21:59.513Z",
+            "sets": 7,
+            "notes": "Tempo 4020\n\nBehind the neck\n15rep 7.5\n10rep 12\n9rep 12\n\nFront of the neck\n10rep 8\n10rep 8\n5rep 10\n5rep 10.5\n\nBehind the neck hold\n30s 14\n30s 14\n\nFront of the neck hold\n31s 17.5"
+        },
+        {
+            "muscle_group": "aerobic",
+            "datetime": "2026-08-02T18:40:21.774Z",
+            "sets": 1,
+            "notes": "Walk on the sun 3.0km"
+        },
+        {
+            "muscle_group": "neck",
+            "datetime": "2026-08-02T17:47:13.804Z",
+            "sets": 1,
+            "notes": "Lateral hold\n45s 5.0\n\nHold with belt\nBack 45s 7.0\nFront 32s 7.5"
+        },
+        {
+            "muscle_group": "hamstrings",
+            "datetime": "2026-08-02T17:30:14.665Z",
+            "sets": 2,
+            "notes": "Without tempo\n5rep 55\n\nTempo 5020\n6rep 41\n\n35s 41"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-07-30T18:00:35.020Z",
+            "sets": 1,
+            "notes": "Bulgarian split squat \n12rep 16.5\n30s 17.5"
+        },
+        {
+            "muscle_group": "aerobic",
+            "datetime": "2026-07-27T21:27:44.835Z",
+            "sets": 1,
+            "notes": "Fast walking 2.3km"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-07-27T19:55:24.758Z",
+            "sets": 3,
+            "notes": "Skull crusher\n90s rest\n\n45s 8\n13rep 6.5\n13rep 6.5\n13rep 6.5\n10rep 6.5"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-07-27T19:38:30.223Z",
+            "sets": 6,
+            "notes": "Tempo 4020\nNeutral to supinated \n10rep 15\n10rep 15\n10rep 15\n35s 16\n32s 16\n\nH bar\nNo tempo\n21rep 8.5\n20rep 8.5\n20rep 8.5\n32s 13\n\nMaybe increase sets next time?"
+        },
+        {
+            "muscle_group": "shoulders",
             "datetime": "2026-07-26T11:10:35.968Z",
             "sets": 7,
             "notes": "Tempo 4020\n\nBehind the neck\n15rep 7.5\n10rep 12\n9rep 12\n\nFront of the neck\n10rep 8\n10rep 8\n10rep 8\n5rep 10\n\nBehind the neck hold\n35s 13.5\n35s 13.5\n\nFront of the neck hold\n32s 17"

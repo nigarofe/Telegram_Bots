@@ -1,6 +1,66 @@
 {
     "workouts": [
         {
+            "muscle_group": "triceps",
+            "datetime": "2026-08-09T12:00:09.696Z",
+            "sets": 4,
+            "notes": "Skull crusher\n90s rest\n\n35s 8\n35s 8\n15rep 6\n15rep 6\n7rep 7.5\n7rep 7.5"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-08-09T11:23:16.986Z",
+            "sets": 6,
+            "notes": "Tempo 4020\nNeutral to supinated \n11rep 15\n10rep 15\n10rep 15\n30s 17\n30s 17\n\nH bar\nNo tempo \n23rep 8.5\n22rep 8.5\n22rep 8.5\n35s 13"
+        },
+        {
+            "muscle_group": "neck",
+            "datetime": "2026-08-08T13:56:00.888Z",
+            "sets": 1,
+            "notes": "Lateral hold\n45s 5.5\n\nHold with belt\nBack \n45s 8.0\n\nFront\n15s 7.5\n8s 7.0"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-08-08T13:24:27.724Z",
+            "sets": 7,
+            "notes": "Tempo 4020\n\nBehind the neck \n15rep 7.5\n9rep 12.5\n9rep 12.5\n\nFront of the neck\n10rep 8\n10rep 8\n6rep 10.5\n7rep 10.5\n\nBehind the neck hold\n35s 14\n35s 14\n\nFront of the neck hold\n45 17.5\n\n\nI think shoulders behind the neck is better around 8 reps.\nFront of the neck 5-6 reps"
+        },
+        {
+            "muscle_group": "adductors",
+            "datetime": "2026-08-08T11:31:06.789Z",
+            "sets": 3,
+            "notes": "90s rest\nRight machine 4 1\n16rep 110\n16rep 110\n16rep 110"
+        },
+        {
+            "muscle_group": "abductors",
+            "datetime": "2026-08-08T11:24:48.145Z",
+            "sets": 3,
+            "notes": "90s rest\nRight machine 1 1\nPause at open\n16rep 100\n16rep 100\n16rep 100"
+        },
+        {
+            "muscle_group": "hamstrings",
+            "datetime": "2026-08-08T10:55:00.871Z",
+            "sets": 2,
+            "notes": "Without tempo \n4rep 55\n\nTempo 5020\n7rep 41\n\n35s 42\n\nTraining every 6 days is not being enough to make progress. 4 days maximum recommended."
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-08-06T19:20:12.733Z",
+            "sets": 1,
+            "notes": "Bulgarian split squat \n10rep 17.5\n35s 17.5"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-08-03T18:37:56.610Z",
+            "sets": 3,
+            "notes": "Skull crusher\n90s rest\n\n41s 8\n15rep 6\n15rep 6\n8rep 7\n9rep 7"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-08-03T18:03:36.539Z",
+            "sets": 7,
+            "notes": "Tempo 4020\nNeutral to supinated\n11rep 15\n10rep 15\n10rep 15\n40s 16\n34s 16\n\nH bar\nNo tempo\n21rep 8.5\n21rep 8.5\n21rep 8.5\n32s 13"
+        },
+        {
             "muscle_group": "shoulders",
             "datetime": "2026-08-02T19:21:59.513Z",
             "sets": 7,

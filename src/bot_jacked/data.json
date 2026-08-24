@@ -1,6 +1,54 @@
 {
     "workouts": [
         {
+            "muscle_group": "isometrics",
+            "datetime": "2026-08-23T21:47:53.333Z",
+            "sets": 1,
+            "notes": "10s ab suction"
+        },
+        {
+            "muscle_group": "adductors",
+            "datetime": "2026-08-22T11:48:24.182Z",
+            "sets": 4,
+            "notes": "90s rest\nRight machine 4 1\n15rep 130\n15rep 130\n15rep 130\n9rep 140"
+        },
+        {
+            "muscle_group": "abductors",
+            "datetime": "2026-08-22T11:40:04.648Z",
+            "sets": 4,
+            "notes": "90s rest\nLeft machine 1 1\nPause at open\n16rep 110\n16rep 110\n16rep 110\n14rep 100"
+        },
+        {
+            "muscle_group": "isometrics",
+            "datetime": "2026-08-21T11:44:54.644Z",
+            "sets": 1,
+            "notes": "8s ab auction"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-08-21T11:26:51.909Z",
+            "sets": 4,
+            "notes": "Skull crusher\n90s rest\n\n35s 8.5\n35s 8.5\n12rep 7\n10rep 7\n6rep 8.5\n6rep 8.5"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-08-21T10:52:14.436Z",
+            "sets": 6,
+            "notes": "Tempo 4020\nNeutral to supinated \n11rep 15\n10rep 15\n10rep 15\n36s 17\n31s 17\n(Right is weaker in isometrics)\n\nH bar\nNo tempo\n19rep 9.0\n18rep 9.0\n17rep 9.0\n35s 13.0\n\nI'm get near needing to increase a set"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-08-19T11:15:59.216Z",
+            "sets": 6,
+            "notes": "Tempo 4020\n\n16rep 8.0\n8rep 14.0\n7rep 14.0\n\nFront of the neck\n10rep 9.0\n10rep 9.0\n6rep 13.5\n6rep 13.5\n\nBehind the neck hold\n35s 15\n35s 15\n\nFront of the neck hold\n36s 20"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-08-19T10:22:11.212Z",
+            "sets": 1,
+            "notes": "Bulgarian split squat \n10rep 19.5\n30s 19.5"
+        },
+        {
             "muscle_group": "hamstrings",
             "datetime": "2026-08-16T21:58:57.772Z",
             "sets": 2,

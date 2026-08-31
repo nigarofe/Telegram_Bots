@@ -1,6 +1,78 @@
 {
     "workouts": [
         {
+            "muscle_group": "triceps",
+            "datetime": "2026-08-30T20:34:23.430Z",
+            "sets": 5,
+            "notes": "Skull crusher\n90s rest\n\n45s 8.5\n45s 8.5\n11rep 7\n11rep 7\n6rep 8.5\n5rep 8.5\n5rep 8.5\n\nIncreased number of sets"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-08-30T20:13:43.584Z",
+            "sets": 7,
+            "notes": "90s rest\nRight is weaker\n\nTempo 4020\nNeutral to supinated \n11rep 15\n10rep 15\n10rep 15\n30s 17\n30s 17\n\n180s\n\nH bar\nNo tempo \n20rep 8.5\n16rep 8.5\n12rep 8.5\n6rep 13\n31s 12.0\n\nIncreased number of sets"
+        },
+        {
+            "muscle_group": "adductors",
+            "datetime": "2026-08-30T12:32:13.496Z",
+            "sets": 4,
+            "notes": "90s rest\nLeft machine 4 1\n16rep 130\n16rep 130\n10rep 140\n11rep 140\n26s 120"
+        },
+        {
+            "muscle_group": "abductors",
+            "datetime": "2026-08-30T12:21:07.644Z",
+            "sets": 4,
+            "notes": "90s rest\nRight machine 1 1\nPause at open\n16rep 110\n16rep 110\n11rep 120\n11rep 120\n27s 80"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-08-28T21:05:43.132Z",
+            "sets": 7,
+            "notes": "Tempo 4020\n120s rest\n13rep 9.0\n7rep 15.0\n6rep 15.0\n\nFront of the neck\n12rep 9.0\n12rep 9.0\n6rep 14.5\n6rep 14.5\n\nBehind the neck hold\n35s 15.5\n35s 15.5\n\nFront of the neck hold \nAttention to lift\n45s 20.5"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-08-28T19:22:47.737Z",
+            "sets": 1,
+            "notes": "Bulgarian split squat\n10rep 20\n35s 20"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-08-26T11:50:59.134Z",
+            "sets": 4,
+            "notes": "Skull crusher\n90s rest\n\n40s 8.5\n40s 8.5\n10rep 7\n9rep 7\n5rep 8.5\n6rep 8.5\n\nWeaker. Maybe because 5 days since last set?"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-08-26T11:31:21.832Z",
+            "sets": 8,
+            "notes": "90s rest\nRight is weaker\n\nTempo 4020\nNeutral to supinated \n11rep 15\n10rep 15\n10rep 15\n33s 17\n25s 17\n\nH bar\nNo tempo\n19rep 9.0\n13rep 9.0\n12rep 8.0\n28s 13.0\n\n- Was weaker because of lesser resting time (~180s to 90s)\n- Increase number of sets next time\n- Do every 3 days"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-08-26T09:05:24.461Z",
+            "sets": 7,
+            "notes": "Tempo 4020\n\n14rep 8.5\n7rep 14.5\n7rep 14.5\n\nFront of the neck\n11rep 9.0\n11rep 9.0\n6rep 14\n6rep 14\n\n\nBehind the neck hold\n40s 15\n40s 15\n\nFront of the neck hold\nAttention to lift!\n45s 20"
+        },
+        {
+            "muscle_group": "abductors",
+            "datetime": "2026-08-25T19:34:01.472Z",
+            "sets": 4,
+            "notes": "90s rest\nRight machine 1 1\nPause at open\n16rep 110\n16rep 110\n10rep 120\n10rep 120"
+        },
+        {
+            "muscle_group": "adductors",
+            "datetime": "2026-08-25T19:26:23.427Z",
+            "sets": 4,
+            "notes": "90s rest\nLeft machine 4 1\n15rep 130\n15rep 130\n14rep 130\n9rep 140\n\nIncrease sets next time"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-08-25T18:56:08.696Z",
+            "sets": 1,
+            "notes": "Bulgarian split squat\n10rep 19.5\n35s 19.5\n\nDo every 3 days to make progress"
+        },
+        {
             "muscle_group": "isometrics",
             "datetime": "2026-08-23T21:47:53.333Z",
             "sets": 1,

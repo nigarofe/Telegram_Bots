@@ -2,6 +2,30 @@
     "workouts": [
         {
             "muscle_group": "triceps",
+            "datetime": "2026-09-07T14:37:04.643Z",
+            "sets": 5,
+            "notes": "Skull crusher\n90s rest\n\n45s 9.0\n45s 9.0\n12rep 7\n11rep 7\n6rep 8.5\n6rep 8.5\n5rep 8.5"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-09-07T13:55:48.127Z",
+            "sets": 7,
+            "notes": "90s rest\nStarted with right\n\nTempo 4020\nNeutral to supinated \n11rep 15\n10rep 15\n9rep 15\n30s 17\n30s 17\n\n180s\n\nH bar\nNo tempo \n18rep 8.5\n16rep 8.5\n15rep 8.5\n7rep 13.0\n31s 12.0"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-09-02T11:46:21.676Z",
+            "sets": 7,
+            "notes": "Tempo 4020\n120s rest\n13rep 9.5\n6rep 15.5\n5rep 15.5\n\nFront of the neck\n10rep 9.0\n8rep 9.0\n5rep 14.5\n5rep 14.5\n\nDidn't do isometrics\n\n120s rest is too little change to 150s.\nDon't decrease weight next time."
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-09-02T11:18:33.968Z",
+            "sets": 1,
+            "notes": "Bulgarian split squat\n10rep 21\n35s 21"
+        },
+        {
+            "muscle_group": "triceps",
             "datetime": "2026-08-30T20:34:23.430Z",
             "sets": 5,
             "notes": "Skull crusher\n90s rest\n\n45s 8.5\n45s 8.5\n11rep 7\n11rep 7\n6rep 8.5\n5rep 8.5\n5rep 8.5\n\nIncreased number of sets"

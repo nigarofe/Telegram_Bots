@@ -2,6 +2,54 @@
     "workouts": [
         {
             "muscle_group": "triceps",
+            "datetime": "2026-09-13T21:52:50.852Z",
+            "sets": 5,
+            "notes": "Skull crusher\n90s rest\n\n45s 9.5\n45s 9.5\n12rep 7\n12rep 7\n6rep 8.5\n6rep 8.5\n6rep 8.5"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-09-13T21:23:46.684Z",
+            "sets": 1,
+            "notes": "90s rest\nStarted with left\n45s 12.0\n45s 12.0\n12rep 12.0"
+        },
+        {
+            "muscle_group": "abs",
+            "datetime": "2026-09-12T12:09:25.188Z",
+            "sets": 1,
+            "notes": "Bar hold\n16s 0\n8s 0"
+        },
+        {
+            "muscle_group": "neck",
+            "datetime": "2026-09-12T12:05:49.876Z",
+            "sets": 1,
+            "notes": "Lateral hold\n45s 5.0\n\nHold with belt\n\nBack\n45s 10.0\n\nFront\n35s 2.5\n35s 2.5"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-09-12T11:50:21.955Z",
+            "sets": 7,
+            "notes": "Tempo 4020\n150s rest\n\nBehind the neck\n13rep 7\n6rep 14\n6rep 14\n\nFront of the neck\n10rep 7.0\n10rep 7.0\n6rep 12.0\n6rep 12.0\n\nBehind the neck hold \n35s 14.0\n35s 14.0\n\nFront of the neck hold\nAttention to the lift\n45s 14.0"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-09-12T11:08:55.121Z",
+            "sets": 1,
+            "notes": "Bulgarian split squat \n12rep 16\n35s 16\n\nIncrease number of isometric sets next time"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-09-10T09:28:42.546Z",
+            "sets": 1,
+            "notes": "45s 8\n\nI hurt my left biceps tendon last time. Probably went too hard for ~8 days without training"
+        },
+        {
+            "muscle_group": "neck",
+            "datetime": "2026-09-07T14:59:48.821Z",
+            "sets": 1,
+            "notes": "Lateral hold\n45s 5.0\n\nHold with belt\nBack\n45s 9.0\n\nFront\n31s 3.0"
+        },
+        {
+            "muscle_group": "triceps",
             "datetime": "2026-09-07T14:37:04.643Z",
             "sets": 5,
             "notes": "Skull crusher\n90s rest\n\n45s 9.0\n45s 9.0\n12rep 7\n11rep 7\n6rep 8.5\n6rep 8.5\n5rep 8.5"

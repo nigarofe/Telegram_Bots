@@ -1,6 +1,84 @@
 {
     "workouts": [
         {
+            "muscle_group": "aerobic",
+            "datetime": "2026-09-20T20:26:27.309Z",
+            "sets": 1,
+            "notes": "2:48"
+        },
+        {
+            "muscle_group": "forearms",
+            "datetime": "2026-09-20T13:19:43.621Z",
+            "sets": 1,
+            "notes": "Hand grip\n45s -3 voltas"
+        },
+        {
+            "muscle_group": "abs",
+            "datetime": "2026-09-20T13:08:58.426Z",
+            "sets": 1,
+            "notes": "Lateral hold on foam\n45s 0 two legs"
+        },
+        {
+            "muscle_group": "neck",
+            "datetime": "2026-09-20T13:03:48.038Z",
+            "sets": 1,
+            "notes": "Lateral hold\n45s 7.0\n\nBack\n45s 12.0\n\nFront\n35s 3.0\n32s 3.0"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-09-20T12:40:43.782Z",
+            "sets": 7,
+            "notes": "Tempo 4020\n150s rest\n\nBehind the neck\n12rep 9.0\n6rep 16.0\n5rep 16.0\n\nFront of the neck \n11rep 8.0\n11rep 8.0\n6rep 14.0\n6rep 14.0\n\nBehind the neck hold\n40s 15.0\n40s 15.0\nIncrease sets next time\n\nFront of the neck hold\nAttention to lift\n45s 20"
+        },
+        {
+            "muscle_group": "abs",
+            "datetime": "2026-09-19T23:51:23.931Z",
+            "sets": 2,
+            "notes": "Bar hold\n22s 0\n23s 0"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-09-19T22:37:41.760Z",
+            "sets": 1,
+            "notes": "11rep 18.5\n36s 18.5"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-09-17T11:31:48.137Z",
+            "sets": 5,
+            "notes": "Skull crusher\n90s rest\n\n45s 9.5\n45s 9.5\n45s 9.5\n12rep 7\n12rep 7\n6rep 8.5\n6rep 8.5\n7rep 8.5"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-09-17T11:02:45.903Z",
+            "sets": 2,
+            "notes": "90s rest\nStarted with left\n\n45s 13.0\n45s 13.0\n45s 13.0\n\nTempo 4020\n10rep 13.0\n10rep 13.0"
+        },
+        {
+            "muscle_group": "abs",
+            "datetime": "2026-09-16T00:26:07.726Z",
+            "sets": 1,
+            "notes": "Bar hold\n16s 0\n17s 0"
+        },
+        {
+            "muscle_group": "neck",
+            "datetime": "2026-09-15T14:42:13.576Z",
+            "sets": 1,
+            "notes": "Lateral hold\n45s 6.0\n\nHold with belt\n\nBack\n45s 11.0\n\nFront\n40s 2.5\n45s 2.5"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-09-15T11:06:21.035Z",
+            "sets": 7,
+            "notes": "Tempo 4020\n150s rest\n\nBehind the neck\n12rep 8\n6rep 15\n6rep 15\n\nFront of the neck\n10rep 8.0\n10rep 8.0\n6rep 13.0\n6rep 13.0\n\n\nBehind the neck hold\n35s 15.0\n35s 15.0\nDon't increase weight\n\nFront of the neck hold \nAttention to lift\n45s 17.5"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-09-15T10:26:02.037Z",
+            "sets": 1,
+            "notes": "Bulgarian split squat\n11rep 17.5\n35s 17.5"
+        },
+        {
             "muscle_group": "triceps",
             "datetime": "2026-09-13T21:52:50.852Z",
             "sets": 5,

@@ -1,6 +1,24 @@
 {
     "workouts": [
         {
+            "muscle_group": "shoulders",
+            "datetime": "2026-10-03T18:40:01.890Z",
+            "sets": 7,
+            "notes": "Tempo 4020\n150s rest after each set\n\nBehind the neck\n12rep 9.5\n6rep 16.0\n6rep 16.0\n\nFront of the neck\n12rep 8.0\n12rep 8.0\n6rep 14.5\n6rep 14.5\n\nBehind the neck hold\n40s 14.0\n35s 14.0\n27s 15.0\n\nFront of the neck hold\nAttention to lift\n45s 20.0"
+        },
+        {
+            "muscle_group": "neck",
+            "datetime": "2026-09-30T00:18:39.141Z",
+            "sets": 1,
+            "notes": "35s 9.0\n\nBack\n45s 14.0\n\nFront\n38s 3.0\n38s 3.0"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-09-29T23:51:09.754Z",
+            "sets": 1,
+            "notes": "11rep 20.5\n45s 20.5"
+        },
+        {
             "muscle_group": "abs",
             "datetime": "2026-09-27T23:04:51.237Z",
             "sets": 1,

@@ -2,6 +2,78 @@
     "workouts": [
         {
             "muscle_group": "shoulders",
+            "datetime": "2026-10-16T11:43:01.425Z",
+            "sets": 7,
+            "notes": "Tempo 4020\n150sr after each set\n\nBehind the neck\n12rep 10.5\n6rep 17.0\n5rep 17.0\n\nFront of the neck\n12rep 8.0\n12rep 8.0\n5rep 15.5\n5rep 15.5\n\n\n180sr after each set\nBehind the neck hold\n40s 14.0\n33s 14.0\n31s 14.0\n\nFront of the neck hold\n40s 21.0\n\nGetting weaker in behind the neck hold because of higher intensity on the common ones?"
+        },
+        {
+            "muscle_group": "neck",
+            "datetime": "2026-10-14T18:58:55.679Z",
+            "sets": 1,
+            "notes": "Lateral hold\n45s 9.0\n\nBack\n45s 14.5 120sr\n41s 14.5\n\nFront\n40s 3.0 120sr\n40s 3.0"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-10-14T18:32:16.350Z",
+            "sets": 5,
+            "notes": "Remember to bias outside\nSkull crusher\n90sr after each set \n45s 10.0\n45s 10.0\n45s 10.0\n12rep 7.5\n11rep 7.5\n6rep 9.0\n6rep 9.0\n6rep 9.0"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-10-14T17:58:36.439Z",
+            "sets": 5,
+            "notes": "Started with left\n\n45s 14.5 45sr\n45s 14.5 45sr\n45s 14.5 90sr\n\nNeutral to supinated\nTempo 4020\n9rep 14.5 90sr\n8rep 14.5 90sr\n8rep 14.5 180sr\n\nH bar\n45s 10.5 90sr\n16rep 10.0 120sr\n9rep 10.0"
+        },
+        {
+            "muscle_group": "abs",
+            "datetime": "2026-10-10T13:22:24.347Z",
+            "sets": 1,
+            "notes": "90sr after each set\n\nBar hold\n40s 2.0 left leg\n30s 2.0 right leg\n\nToo tired, do the rest tomorrow"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-10-10T13:09:11.808Z",
+            "sets": 1,
+            "notes": "10rep 22.5\n45s 22.5"
+        },
+        {
+            "muscle_group": "shoulders",
+            "datetime": "2026-10-09T23:48:19.349Z",
+            "sets": 7,
+            "notes": "Tempo 4020\n150s rest after each set\n\nBehind the neck\n12rep 10.0\n6rep 16.5\n6rep 16.5\n\nFront of the neck\n12rep 8.0\n12rep 8.0\n6rep 15.0\n6rep 15.0\n\nBehind the neck hold\n40s 14.0\n40s 14.0\n32s 14.0\n\nFront of the neck hold\nAttention to lift\n38s 21.0"
+        },
+        {
+            "muscle_group": "triceps",
+            "datetime": "2026-10-08T00:04:57.443Z",
+            "sets": 5,
+            "notes": "Skull crusher\n90sr after each set\n45s 10.0\n45s 10.0\n45s 10.0\n12rep 7.5\n11rep 7.5\n5rep 9.0\n5rep 9.0\n5rep 9.0"
+        },
+        {
+            "muscle_group": "biceps",
+            "datetime": "2026-10-07T23:33:53.606Z",
+            "sets": 4,
+            "notes": "Started with left\n\n45s 14.0 45sr\n45s 14.0 45sr\n45s 14.0 90sr\n\nNeutral to supinated \nTempo 4020\n9rep 14.0 90sr\n9rep 14.0 90sr\n9rep 14.0 180sr\n\nH bar\n45s 10.0 90sr\n17rep 10.0"
+        },
+        {
+            "muscle_group": "neck",
+            "datetime": "2026-10-06T22:03:46.950Z",
+            "sets": 1,
+            "notes": "Lateral hold\n45s 9.0\n\nBack\n45s 14.0\n45s 14.0\n\nFront\n41s 3.0\n38s 3.0"
+        },
+        {
+            "muscle_group": "abs",
+            "datetime": "2026-10-06T21:33:03.464Z",
+            "sets": 1,
+            "notes": "90s rest after each set\n\nBar hold\n35s 2.0 with each leg\n\nLateral hold on foam\nRotate main foot outwards\n45s 0 (left with help from other leg)\n\nVacuum hold\n8s\n7s"
+        },
+        {
+            "muscle_group": "glutes",
+            "datetime": "2026-10-06T21:05:17.914Z",
+            "sets": 1,
+            "notes": "9rep 22.0\n45s 22.0"
+        },
+        {
+            "muscle_group": "shoulders",
             "datetime": "2026-10-03T18:40:01.890Z",
             "sets": 7,
             "notes": "Tempo 4020\n150s rest after each set\n\nBehind the neck\n12rep 9.5\n6rep 16.0\n6rep 16.0\n\nFront of the neck\n12rep 8.0\n12rep 8.0\n6rep 14.5\n6rep 14.5\n\nBehind the neck hold\n40s 14.0\n35s 14.0\n27s 15.0\n\nFront of the neck hold\nAttention to lift\n45s 20.0"
